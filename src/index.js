@@ -1,3 +1,3 @@
 import falabellaScraper from './lib/scrapers/falabella'
 
-falabellaScraper().getProductsByPage()
+falabellaScraper().getProductsByPage().then(console.log)
