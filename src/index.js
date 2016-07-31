@@ -1,3 +1,4 @@
 import falabellaScraper from './lib/scrapers/falabella'
+import ripleyScraper from './lib/scrapers/ripley'
 
-falabellaScraper().getProductsByPage().then(console.log)
+ripleyScraper().getProducts().then(console.log)
