@@ -1,1 +1,1 @@
-export const cleanText = text => text.replace(/[\r\n\t]/ig, '')
+export const cleanText = t => t.trim().replace(/[\r\n\t]/ig, '')

@@ -1,4 +1,5 @@
-import falabellaScraper from './lib/scrapers/falabella'
-import ripleyScraper from './lib/scrapers/ripley'
+import * as paris from './lib/scrapers/paris'
+import * as falabella from './lib/scrapers/falabella'
+import * as pcfactory from './lib/scrapers/pcfactory'
 
-ripleyScraper().getProducts().then(console.log)
+paris.getProducts(0, 10, 'accesorios computacion').then(console.log)
