@@ -14,7 +14,7 @@ export const getProducts = (page = 0, qty = 10, search = '*') => {
     const elems = $('.catalog-container .catalog-product')
 
     return elems.map((i, elem) => {
-      const link = $(elem).find('a.catalog-item').attr('href')
+      const link = $(elem).attr('href')
       const img = $(elem).find('.product-image img').attr('data-src')
       const name = $(elem).find('.catalog-product-name').text()
       const price = $(elem).find('.best-price').text().replace(/([^\d])/ig, '')
