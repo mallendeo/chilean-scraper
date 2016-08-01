@@ -1,5 +1,4 @@
-import { getBody } from '../request'
-import { cleanText } from '../helpers'
+import { cleanText, getBody } from '../helpers'
 import cheerio from 'cheerio'
 
 const HOST = 'https://pcfactory.cl'
@@ -44,4 +43,4 @@ export const parseProducts = body => {
 }
 
 export const getProducts = (page = 1) =>
-  getBody(`${SEARCH_URL}&pagina=${page}`).then(parseProducts)
+  getBody(`${SEARCH_URL}&pagina=${page}`).then(({ body }) => parseProducts(body))

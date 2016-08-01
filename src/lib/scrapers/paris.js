@@ -1,5 +1,4 @@
-import { getBody } from '../request'
-import { cleanText } from '../helpers'
+import { cleanText, getBody } from '../helpers'
 import cheerio from 'cheerio'
 
 const HOST = 'http://www.paris.cl'
@@ -25,7 +24,7 @@ export const parseProducts = body => {
   const $ = cheerio.load(body)
   const elems = $('.item_container > .item')
 
-  const nav = getNav($, qty, search)
+  const nav = getNav($)
   const products = elems.map((i, elem) => {
     const link = $(elem).find('.description_fixedwidth > a').attr('href')
     const img = $(elem).find('.img img').attr('src')
@@ -44,4 +43,4 @@ export const parseProducts = body => {
 }
 
 export const getProducts = (page = 0, qty = 10, search = '') =>
-  getBody(makeUrl(page, qty, search)).then(parseProducts)
+  getBody(makeUrl(page, qty, search)).then(({ body }) => parseProducts(body))

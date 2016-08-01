@@ -1,10 +1,7 @@
-import { getBody } from '../request'
-import { cleanText } from '../helpers'
+import { cleanText, getBody } from '../helpers'
 import cheerio from 'cheerio'
 
 const HOST = 'https://www.spdigital.cl'
-
-export const getCategories = () => getBody(HOST).then(parseCategories)
 
 export const parseCategories = body => {
   const $ = cheerio.load(body)
@@ -14,15 +11,19 @@ export const parseCategories = body => {
   })).get()
 }
 
+export const getCategories = () =>
+  getBody(HOST).then(({ body }) => parseCategories(body))
+
 export const getNav = $ => {
   const nav = $('.pagination')
   const current = nav.find('.active')
-  const next = nav.find('a.next')
-  const prev = nav.find('a.prev')
+  let next = nav.find('a.next').attr('href')
+  let prev = nav.find('a.prev').attr('href')
+
   return {
-    prev: prev.attr('href') || null,
-    current: current.children('a').attr('href'),
-    next: next.attr('href') || null,
+    prev: prev ? `${HOST}${prev}` : null,
+    current: `${HOST}${current.children('a').attr('href')}`,
+    next: next ? `${HOST}${next}` : null,
   }
 }
 
@@ -56,4 +57,4 @@ export const parseProducts = body => {
 }
 
 export const getProducts = (url, page = 1) =>
-  getBody(`${url}/page:${page}`).then(parseProducts)
+  getBody(`${url}/page:${page}`).then(({ body }) => parseProducts(body))
