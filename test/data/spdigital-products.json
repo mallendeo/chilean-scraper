@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "name": "Cable De Seguridad Naranja Safe Pro Con Llave",
+      "price": "15310",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/40511",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1425997831418-11041315-2141.jpg"
+    },
+    {
+      "name": "Kensington Cable seguridad notebook  Microsaver",
+      "price": "16470",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/33043",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1425997837039-11041315-2141.jpg"
+    },
+    {
+      "name": "Kensington - Pack Maletín Asociatte de 14 - Briefcase Asociatte",
+      "price": "19630",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/50560",
+      "img": "https://www.spdigital.cl/img/products/no_image.jpg"
+    },
+    {
+      "name": "Candado Cable de Seguridad Twin Naranaja Microsaver",
+      "price": "21430",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/32086",
+      "img": "https://www.spdigital.cl/img/products/41NVi8SZSHL.jpg"
+    },
+    {
+      "name": "HP 46 - Paquete de 3 - negro",
+      "price": "13270",
+      "brand": "HP",
+      "link": "https://www.spdigital.cl/products/view/50804",
+      "img": "https://www.spdigital.cl/img/products/hp - tinta negra.jpg"
+    },
+    {
+      "name": "CANDADO 2 DISPOSITIVOS LLAVE",
+      "price": "20180",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/35968",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1422045811131-6306419-Kensington.jpg"
+    },
+    {
+      "name": "CABLE MINISAVER LOCK PARA ULTRABOOK",
+      "price": "24740",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/50762",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1461085077344-26130438-Acco-K67890WW-1-27.jpg"
+    },
+    {
+      "name": "Cable De Seguridad Con Clave C",
+      "price": "14830",
+      "brand": "KENSINGTON",
+      "link": "https://www.spdigital.cl/products/view/41842",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1424964204088-10795201-954.jpg"
+    },
+    {
+      "name": "Candado KlipXtreme Bolt II",
+      "price": "8720",
+      "brand": "KLIP XTREME",
+      "link": "https://www.spdigital.cl/products/view/33992",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1418833882147-19785080-1606.jpg"
+    },
+    {
+      "name": "DELL CANDADO CON LLAVE PARA NOTEBOOK 1.8MTS.",
+      "price": "12700",
+      "brand": "DELL",
+      "link": "https://www.spdigital.cl/products/view/47142",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1437568876713-26172752-7947.jpg"
+    },
+    {
+      "name": "DRU HOVER SMART BOARD BLACK WITH CHARGER LG BATTER",
+      "price": "339490",
+      "brand": "DRIFTYUSA",
+      "link": "https://www.spdigital.cl/products/view/49623",
+      "img": "https://www.spdigital.cl/img/products/08-2.jpg"
+    },
+    {
+      "name": "TP-Link Adaptador USB Inalámbrico de Alta Ganancia 150Mbps TL-WN722N 4dBi antena desmontable",
+      "price": "7990",
+      "brand": "TP-LINK",
+      "link": "https://www.spdigital.cl/products/view/46037",
+      "img": "https://www.spdigital.cl/img/products/new_web/thumb-1433279505493-3468958-4441.jpg"
+    }
+  ],
+  "nav": {
+    "prev": null,
+    "current": "https://www.spdigital.cl/categories/view/334/page:1",
+    "next": "https://www.spdigital.cl/categories/view/334/page:2"
+  }
+}
