@@ -18,7 +18,7 @@ export const getNav = ($, res) => {
     .prev()
     .children('a')
     .attr('href')
-  const uri = parse(res.req.path)
+  const uri = parse(res.request.path)
 
   return {
     prev: prev.length > 2 ? `${HOST}${uri.pathname}?${prev.replace('#', '')}` : null,

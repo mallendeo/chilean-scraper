@@ -19,9 +19,10 @@ const getProducts = (requests, id, scraper) => Promise.all(requests)
     const pages = []
 
     data.forEach(({ $, res, body }) => {
-      const url = scraper.HOST + res.req.path
+      const path = res.request.path
+      const url = scraper.HOST + path
       products.push({ url, payload: scraper.parseProducts($, res) })
-      pages.push({ url, body, res: { req: { path: res.req.path } } })
+      pages.push({ url, body, res: { request: { path } } })
     })
 
     return { products, pages }

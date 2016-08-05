@@ -18,13 +18,6 @@
           "img": "https://www.spdigital.cl/img/products/new_web/thumb-1425997837039-11041315-2141.jpg"
         },
         {
-          "name": "Cable de Seguridad Kensington Combinacion Ultra Security",
-          "price": "14670",
-          "brand": "KENSINGTON",
-          "link": "https://www.spdigital.cl/products/view/36374",
-          "img": "https://www.spdigital.cl/img/products/new_web/thumb-1424964240752-10795201-954.jpg"
-        },
-        {
           "name": "Kensington - Pack Maletín Asociatte de 14 - Briefcase Asociatte",
           "price": "19630",
           "brand": "KENSINGTON",
@@ -86,6 +79,13 @@
           "brand": "KLIP XTREME",
           "link": "https://www.spdigital.cl/products/view/33992",
           "img": "https://www.spdigital.cl/img/products/new_web/thumb-1418833882147-19785080-1606.jpg"
+        },
+        {
+          "name": "DELL CANDADO CON LLAVE PARA NOTEBOOK 1.8MTS.",
+          "price": "12550",
+          "brand": "DELL",
+          "link": "https://www.spdigital.cl/products/view/47142",
+          "img": "https://www.spdigital.cl/img/products/new_web/thumb-1437568876713-26172752-7947.jpg"
         }
       ],
       "nav": {
@@ -99,13 +99,6 @@
     "url": "https://www.spdigital.cl/categories/view/334/page:2",
     "payload": {
       "products": [
-        {
-          "name": "DELL CANDADO CON LLAVE PARA NOTEBOOK 1.8MTS.",
-          "price": "12550",
-          "brand": "DELL",
-          "link": "https://www.spdigital.cl/products/view/47142",
-          "img": "https://www.spdigital.cl/img/products/new_web/thumb-1437568876713-26172752-7947.jpg"
-        },
         {
           "name": "DRU HOVER SMART BOARD BLACK WITH CHARGER LG BATTER",
           "price": "335430",
@@ -182,6 +175,13 @@
           "brand": "KENSINGTON",
           "link": "https://www.spdigital.cl/products/view/44726",
           "img": "https://www.spdigital.cl/img/products/new_web/thumb-1430152439293-10795201-954.jpg"
+        },
+        {
+          "name": "HP MP4 Digital Signage Player Model 4200 Ram 4GB mSTA 32GB AMD Radeon HD 8280E",
+          "price": "384400",
+          "brand": "HP",
+          "link": "https://www.spdigital.cl/products/view/49275",
+          "img": "https://www.spdigital.cl/img/products/c04107111.png"
         }
       ],
       "nav": {
@@ -195,13 +195,6 @@
     "url": "https://www.spdigital.cl/categories/view/334/page:3",
     "payload": {
       "products": [
-        {
-          "name": "HP MP4 Digital Signage Player Model 4200 Ram 4GB mSTA 32GB AMD Radeon HD 8280E",
-          "price": "384400",
-          "brand": "HP",
-          "link": "https://www.spdigital.cl/products/view/49275",
-          "img": "https://www.spdigital.cl/img/products/c04107111.png"
-        },
         {
           "name": "MicroSaver Notebook Lock and Security Cable (PC/ Ma",
           "price": "15980",
@@ -264,6 +257,13 @@
           "brand": "KENSINGTON",
           "link": "https://www.spdigital.cl/products/view/36348",
           "img": "https://www.spdigital.cl/img/products/new_web/thumb-1418773846459-9030358-2717.jpg"
+        },
+        {
+          "name": "Cable de Seguridad Kensington Combinacion Ultra Security",
+          "price": "14670",
+          "brand": "KENSINGTON",
+          "link": "https://www.spdigital.cl/products/view/36374",
+          "img": "https://www.spdigital.cl/img/products/new_web/thumb-1424964240752-10795201-954.jpg"
         },
         {
           "name": "Cable Microsaver Portable Lcok",

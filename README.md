@@ -12,11 +12,13 @@ $ npm install mallendeo/buscatodo-scraper#master
 
 Supported websites:
 
-  - Falabella
-  - Paris
-  - PC Factory
-  - Ripley
-  - SP Digital
+  - [Falabella](http://falabella.com)
+  - [Paris](http://paris.cl)
+  - [PC Factory](https://pcfactory.cl)
+  - [Ripley](http://ripley.cl)
+  - [SP Digital](http://spdigital.cl)
+  - [Sodimac](http://sodimac.cl)
+  - [Olimex](http://olimex.cl)
 
 ...
 

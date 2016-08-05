@@ -4,6 +4,7 @@ import * as paris from './lib/scrapers/paris'
 import * as spdigital from './lib/scrapers/spdigital'
 import * as ripley from './lib/scrapers/ripley'
 import * as sodimac from './lib/scrapers/sodimac'
+import * as olimex from './lib/scrapers/olimex'
 
 export default {
   pcfactory,
@@ -12,4 +13,5 @@ export default {
   spdigital,
   ripley,
   sodimac,
+  olimex,
 }

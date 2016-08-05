@@ -23,7 +23,7 @@ export const getNav = ($, res) => {
 
   return {
     prev: prev || null,
-    current: HOST + res.req.path,
+    current: HOST + res.request.path,
     next: next || null,
   }
 }
