@@ -1,34 +1,31 @@
-import { cleanText, getBody } from '../helpers'
-import cheerio from 'cheerio'
+import { cleanText, getDOM } from '../helpers'
 
-const HOST = 'https://www.spdigital.cl'
+export const HOST = 'https://www.spdigital.cl'
 
-export const parseCategories = body => {
-  const $ = cheerio.load(body)
-  return $('.category-children-item-menu a').map((i, elem) => ({
+export const makeUrl = (url, page = 1) => `${url}/page:${page}`
+
+export const parseCategories = $ => $('.category-children-item-menu a')
+  .map((i, elem) => ({
     name: cleanText($(elem).text()),
-    href: `${HOST}${$(elem).attr('href')}`,
+    href: HOST + $(elem).attr('href'),
   })).get()
-}
 
-export const getCategories = () =>
-  getBody(HOST).then(({ body }) => parseCategories(body))
+export const getCategories = () => getDOM(HOST).then(({ $ }) => parseCategories($))
 
 export const getNav = $ => {
   const nav = $('.pagination')
   const current = nav.find('.active')
-  let next = nav.find('a.next').attr('href')
-  let prev = nav.find('a.prev').attr('href')
+  const next = nav.find('a.next').attr('href')
+  const prev = nav.find('a.prev').attr('href')
 
   return {
-    prev: prev ? `${HOST}${prev}` : null,
-    current: `${HOST}${current.children('a').attr('href')}`,
-    next: next ? `${HOST}${next}` : null,
+    prev: prev ? HOST + prev : null,
+    current: HOST + current.children('a').attr('href'),
+    next: next ? HOST + next : null,
   }
 }
 
-export const parseProducts = body => {
-  const $ = cheerio.load(body)
+export const parseProducts = $ => {
   const elems = $('.product-item-mosaic')
 
   const nav = getNav($)
@@ -48,13 +45,13 @@ export const parseProducts = body => {
       name: originalName || cleanText(name),
       price: price.replace(/[\$\.]/g, ''),
       brand: cleanText(brand).replace(/®/g, ''),
-      link: `${HOST}${link}`,
-      img: `${HOST}${img}`,
+      link: HOST + link,
+      img: HOST + img,
     }
   }).get()
 
   return { products, nav }
 }
 
-export const getProducts = (url, page = 1) =>
-  getBody(`${url}/page:${page}`).then(({ body }) => parseProducts(body))
+export const getProducts = (url, page) => getDOM(makeUrl(url, page))
+  .then(({ $ }) => parseProducts($))

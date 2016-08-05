@@ -4,35 +4,49 @@
   "description": "Buscatodo",
   "main": "index.js",
   "scripts": {
-    "test": "ava --verbose",
-    "start": "babel-node src/index.js"
+    "start": "babel-node src/index.js",
+    "test": "ava",
+    "test:watch": "npm run test -- -w",
+    "lint": "eslint ./ ; exit 0",
+    "update:test": "./bin/update-test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mallendeo/buscatodo.git"
+    "url": "git+https://github.com/mallendeo/buscatodo-scraper.git"
   },
   "ava": {
     "babel": "inherit",
     "require": [
       "babel-register",
       "babel-polyfill"
+    ],
+    "files": [
+      "test/**/*.js",
+      "!**/helpers.js"
     ]
   },
-  "author": "",
-  "license": "ISC",
+  "author": "mallendeo",
   "bugs": {
-    "url": "https://github.com/mallendeo/buscatodo/issues"
+    "url": "https://github.com/mallendeo/buscatodo-scraper/issues"
   },
-  "homepage": "https://github.com/mallendeo/buscatodo#readme",
+  "homepage": "https://github.com/mallendeo/buscatodo-scraper#readme",
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-cli": "^6.11.4",
     "babel-core": "^6.9.1",
-    "babel-plugin-transform-async-to-generator": "^6.8.0",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "eslint": "^3.2.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
-    "iconv-lite": "^0.4.13"
+    "colors": "^1.1.2",
+    "iconv-lite": "^0.4.13",
+    "lodash.times": "^4.3.1"
   }
 }

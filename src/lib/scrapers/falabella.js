@@ -1,11 +1,11 @@
-import { cleanText, getBody } from '../helpers'
-import cheerio from 'cheerio'
+import { cleanText, getDOM } from '../helpers'
 
-const HOST = 'http://www.falabella.com'
+export const HOST = 'http://www.falabella.com'
 const SEARCH_URL = `${HOST}/falabella-cl/search/`
 
-const makeUrl = (page, qty, search) =>
-  `${SEARCH_URL}?&No=${(page - 1) * qty}&Ntt=${search}&Nrpp=${qty}&userSelectedFormat=list`
+export const makeUrl = (page = 1, qty = 16, search = '') =>
+  `${SEARCH_URL}?&No=${(page - 1) * qty}`
+  + `&Ntt=${search}&Nrpp=${qty}&userSelectedFormat=list`
 
 export const getNav = $ => {
   const nav = $('#paginador').first()
@@ -20,14 +20,13 @@ export const getNav = $ => {
   }
 }
 
-export const parseProducts = body => {
-  const $ = cheerio.load(body)
+export const parseProducts = $ => {
   const elems = $('#contenedorInterior .cajaLP1x')
 
   const nav = getNav($)
   const products = elems.map((i, elem) => {
     const isEmpty = $(elem).html() === '&#xA0;'
-    if (isEmpty) return
+    if (isEmpty) return null
 
     const link = $(elem).find('.detalle > a').attr('href')
     const img = $(elem).find('img[data-original]').attr('data-original')
@@ -37,9 +36,9 @@ export const parseProducts = body => {
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, '')),
+      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
       brand: cleanText(brand.replace(/®/g, '')),
-      link: `${HOST}${link}`,
+      link: HOST + link,
       img,
     }
   }).get()
@@ -47,5 +46,5 @@ export const parseProducts = body => {
   return { products, nav }
 }
 
-export const getProducts = (page = 1, qty = 16, search = '') =>
-  getBody(makeUrl(page, qty, search), true).then(({ body }) => parseProducts(body))
+export const getProducts = (page, qty, search) =>
+  getDOM(makeUrl(page, qty, search)).then(({ $ }) => parseProducts($))

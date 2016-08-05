@@ -1,8 +1,9 @@
-import { cleanText, getBody } from '../helpers'
-import cheerio from 'cheerio'
+import { cleanText, getDOM } from '../helpers'
 
-const HOST = 'https://pcfactory.cl'
+export const HOST = 'https://pcfactory.cl'
 const SEARCH_URL = `${HOST}?buscar=ID`
+
+export const makeUrl = (page = 1) => `${SEARCH_URL}&pagina=${page}`
 
 export const getNav = $ => {
   const nav = $('#spx_mostrando ~ table .main')
@@ -12,14 +13,13 @@ export const getNav = $ => {
   const prev = navParent.prev().children('a').attr('href')
 
   return {
-    prev: prev && `${HOST}${prev}`,
+    prev: prev ? HOST + prev : null,
     current: `${SEARCH_URL}&pagina=${current}`,
-    next: next && `${HOST}${next}`,
+    next: next ? HOST + next : null,
   }
 }
 
-export const parseProducts = body => {
-  const $ = cheerio.load(body)
+export const parseProducts = $ => {
   const elems = $('.content > div > table:nth-of-type(2) > tr > td')
 
   const nav = getNav($)
@@ -34,13 +34,13 @@ export const parseProducts = body => {
       name: cleanText(name).replace(/®/g, ''),
       price: price.replace(/[\$\.]/g, ''),
       brand: cleanText(brand).replace(/®/g, ''),
-      link: `${HOST}${link}`,
-      img: `${HOST}${img}`,
+      link: HOST + link,
+      img: HOST + img,
     }
   }).get()
 
   return { products, nav }
 }
 
-export const getProducts = (page = 1) =>
-  getBody(`${SEARCH_URL}&pagina=${page}`).then(({ body }) => parseProducts(body))
+export const getProducts = page => getDOM(makeUrl(page))
+  .then(({ $ }) => parseProducts($))

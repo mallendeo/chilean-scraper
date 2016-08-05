@@ -1,5 +1,13 @@
-import * as paris from './lib/scrapers/paris'
-import * as falabella from './lib/scrapers/falabella'
 import * as pcfactory from './lib/scrapers/pcfactory'
+import * as falabella from './lib/scrapers/falabella'
+import * as paris from './lib/scrapers/paris'
+import * as spdigital from './lib/scrapers/spdigital'
+import * as ripley from './lib/scrapers/ripley'
 
-paris.getProducts(0, 10, 'accesorios computacion').then(console.log)
+export default {
+  pcfactory,
+  falabella,
+  paris,
+  spdigital,
+  ripley,
+}

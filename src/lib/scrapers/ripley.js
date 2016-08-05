@@ -1,25 +1,33 @@
-import { cleanText, getBody } from '../helpers'
-import cheerio from 'cheerio'
+import { cleanText, getDOM } from '../helpers'
+import { parse } from 'url'
 
-const HOST = 'http://simple.ripley.cl'
+export const HOST = 'http://simple.ripley.cl'
 const SEARCH_URL = `${HOST}/search/`
+
+export const makeUrl = (page = 1, qty = 24, search = '*') => `${SEARCH_URL}${search}`
+  + `?&page=${page}&pageSize=${qty}&orderBy=3`
 
 export const getNav = ($, res) => {
   const nav = $('.pagination')
   const current = nav.find('.is-active')
-  const next = current.parent().next().children('a').attr('href')
-  const prev = current.parent().prev().children('a').attr('href')
-  const uri = res.request.uri
+  const next = current.parent()
+    .next()
+    .children('a')
+    .attr('href')
+  const prev = current.parent()
+    .prev()
+    .children('a')
+    .attr('href')
+  const uri = parse(res.req.path)
 
   return {
-    prev: prev ? `${HOST}${uri.pathname}?${prev.replace('#', '')}` : null,
-    current: `${HOST}${uri.path}`,
-    next: next ? `${HOST}${uri.pathname}?${next.replace('#', '')}` : null,
+    prev: prev.length > 2 ? `${HOST}${uri.pathname}?${prev.replace('#', '')}` : null,
+    current: HOST + uri.path,
+    next: next.length > 2 ? `${HOST}${uri.pathname}?${next.replace('#', '')}` : null,
   }
 }
 
-export const parseProducts = (body, res) => {
-  const $ = cheerio.load(body)
+export const parseProducts = ($, res) => {
   const elems = $('.catalog-container .catalog-product')
 
   const nav = getNav($, res)
@@ -27,19 +35,19 @@ export const parseProducts = (body, res) => {
     const link = $(elem).attr('href')
     const img = $(elem).find('.product-image img').attr('data-src')
     const name = $(elem).find('.catalog-product-name').text()
-    const price = $(elem).find('.best-price').text().replace(/([^\d])/ig, '')
+    const price = $(elem).find('.best-price').text()
+      .replace(/([^\d])/ig, '')
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, '')),
-      link: `${HOST}${link}`,
-      img,
+      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
+      link: HOST + link,
+      img: `http:${img}`,
     }
   }).get()
 
   return { products, nav }
 }
 
-export const getProducts = (page = 0, qty = 24, search = '*') =>
-  getBody(`${SEARCH_URL}${search}?&page=${page}&pageSize=${qty}&orderBy=3`)
-    .then(({ body, res }) => parseProducts(body, res))
+export const getProducts = (page, qty, search) => getDOM(makeUrl(page, qty, search))
+  .then(({ $, res }) => parseProducts($, res))

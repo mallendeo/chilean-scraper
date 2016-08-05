@@ -1,11 +1,10 @@
-import { cleanText, getBody } from '../helpers'
-import cheerio from 'cheerio'
+import { cleanText, getDOM } from '../helpers'
 
-const HOST = 'http://www.paris.cl'
+export const HOST = 'http://www.paris.cl'
 const SEARCH_URL = `${HOST}/webapp/wcs/stores/servlet/AjaxCatalogSearchResultView`
 
-const makeUrl = (page, qty, search) =>
-  `${SEARCH_URL}?storeId=10801&pageSize=${qty}&beginIndex=${page * qty}&sType=SimpleSearch&searchTerm=${search}`
+export const makeUrl = (page = 0, qty = 10, search = '') => `${SEARCH_URL}?storeId=10801`
+  + `&pageSize=${qty}&beginIndex=${page * qty}&sType=SimpleSearch&searchTerm=${search}`
 
 export const getNav = ($, qty, search) => {
   const nav = $('.paging ul').first()
@@ -14,14 +13,13 @@ export const getNav = ($, qty, search) => {
   const next = cleanText(current.next().text())
 
   return {
-    prev: prev && makeUrl(prev, qty, search),
+    prev: prev ? makeUrl(prev, qty, search) : null,
     current: makeUrl(cleanText(current.text()), qty, search),
-    next: next && makeUrl(next, qty, search),
+    next: next ? makeUrl(next, qty, search) : null,
   }
 }
 
-export const parseProducts = body => {
-  const $ = cheerio.load(body)
+export const parseProducts = $ => {
   const elems = $('.item_container > .item')
 
   const nav = getNav($)
@@ -33,7 +31,7 @@ export const parseProducts = body => {
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, '')),
+      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
       link,
       img,
     }
@@ -42,5 +40,5 @@ export const parseProducts = body => {
   return { products, nav }
 }
 
-export const getProducts = (page = 0, qty = 10, search = '') =>
-  getBody(makeUrl(page, qty, search)).then(({ body }) => parseProducts(body))
+export const getProducts = (page, qty, search) =>
+  getDOM(makeUrl(page, qty, search)).then(({ body }) => parseProducts(body))
