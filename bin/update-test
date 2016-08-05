@@ -68,4 +68,4 @@ const websites = process.argv[2].split(',') || [process.argv[2]]
 const update = websites.map(website =>
   updateTest(website, process.argv[3], process.argv[4]))
 
-Promise.all(update).then(() => console.log('All test updated! 👌🏼'))
+Promise.all(update).then(() => console.log('All done! 👌🏼'))

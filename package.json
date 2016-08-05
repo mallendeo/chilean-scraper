@@ -44,6 +44,7 @@
     "eslint-plugin-react": "^5.2.2"
   },
   "dependencies": {
+    "axios": "^0.13.1",
     "cheerio": "^0.20.0",
     "colors": "^1.1.2",
     "iconv-lite": "^0.4.13",
