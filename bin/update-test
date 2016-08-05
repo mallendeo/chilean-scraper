@@ -1,0 +1,71 @@
+#!/usr/bin/env babel-node
+/* eslint no-console: 0 */
+
+import { getDOM } from '../src/lib/helpers'
+import scrapers from '../src/index'
+import times from 'lodash.times'
+import colors from 'colors/safe'
+import fs from 'fs'
+
+const getCategories = scraper => {
+  if (!scraper) return Promise.reject('You must specify an scraper')
+  if (scraper.getCategories) return scraper.getCategories()
+  return Promise.resolve([])
+}
+
+const getProducts = (requests, id, scraper) => Promise.all(requests)
+  .then(data => {
+    const products = []
+    const pages = []
+
+    data.forEach(({ $, res, body }) => {
+      const url = scraper.HOST + res.req.path
+      products.push({ url, payload: scraper.parseProducts($, res) })
+      pages.push({ url, body, res: { req: { path: res.req.path } } })
+    })
+
+    return { products, pages }
+  })
+
+const updateTest = async (id, qty = 5, debug = false) => {
+  if (!id) return console.log('Usage: npm run test:update {id} {pages}')
+  if (!scrapers[id]) return console.log(`Error: Invalid scraper "${colors.red(id)}"`)
+
+  const scraper = scrapers[id]
+  return getCategories(scraper)
+    .then(categories => {
+      let requests = null
+      console.log(`🐵  Updating tests for ${colors.green(id)}...`)
+      if (categories.length) {
+        console.log('\tGetting products from the first category...')
+        requests = times(qty, i => getDOM(scraper.makeUrl(categories[0].href, i + 1)))
+      } else {
+        console.log('\tGetting products from search url...')
+        requests = times(qty, i => getDOM(scraper.makeUrl(i + 1)))
+      }
+
+      return getProducts(requests, id, scraper, qty)
+    })
+    .then(({ products, pages }) => {
+      if (!debug) {
+        fs.writeFileSync(`./test/pages/${id}.json`, JSON.stringify(pages, null, 2))
+        fs.writeFileSync(`./test/data/${id}.json`, JSON.stringify(products, null, 2))
+      }
+
+      if (products.length && pages.length) {
+        console.log(`👍  Test data updated for ${colors.green(id)}: ${colors.cyan(qty)} pages`)
+        return
+      }
+    })
+    .catch(err => {
+      console.log(`🙈  Couldn't update test for "${id}"`)
+      console.log(err)
+    })
+}
+
+// updateTest(websiteId, qty, debug)
+const websites = process.argv[2].split(',') || [process.argv[2]]
+const update = websites.map(website =>
+  updateTest(website, process.argv[3], process.argv[4]))
+
+Promise.all(update).then(() => console.log('All test updated! 👌🏼'))
