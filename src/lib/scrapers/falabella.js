@@ -1,4 +1,4 @@
-import { cleanText, getDOM } from '../helpers'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'http://www.falabella.com'
 const SEARCH_URL = `${HOST}/falabella-cl/search/`
@@ -36,8 +36,8 @@ export const parseProducts = $ => {
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
-      brand: cleanText(brand.replace(/®/g, '')),
+      price: cleanPrice(price),
+      brand: cleanText(brand),
       link: HOST + link,
       img,
     }

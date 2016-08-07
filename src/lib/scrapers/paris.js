@@ -1,4 +1,4 @@
-import { cleanText, getDOM } from '../helpers'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'http://www.paris.cl'
 const SEARCH_URL = `${HOST}/webapp/wcs/stores/servlet/AjaxCatalogSearchResultView`
@@ -40,7 +40,7 @@ export const parseProducts = ($, res) => {
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
+      price: cleanPrice(price),
       link,
       img,
     }

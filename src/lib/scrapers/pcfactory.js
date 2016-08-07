@@ -1,4 +1,4 @@
-import { cleanText, getDOM } from '../helpers'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'https://pcfactory.cl'
 const SEARCH_URL = `${HOST}?buscar=ID`
@@ -31,9 +31,9 @@ export const parseProducts = $ => {
     const price = $(elem).find('.precioGrupo').text()
 
     return {
-      name: cleanText(name).replace(/®/g, ''),
-      price: price.replace(/[\$\.]/g, ''),
-      brand: cleanText(brand).replace(/®/g, ''),
+      name: cleanText(name),
+      price: cleanPrice(price),
+      brand: cleanText(brand),
       link: HOST + link,
       img: HOST + img,
     }

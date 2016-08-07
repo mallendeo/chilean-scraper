@@ -1,4 +1,4 @@
-import { cleanText, getDOM } from '../helpers'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'https://www.spdigital.cl'
 
@@ -43,8 +43,8 @@ export const parseProducts = $ => {
 
     return {
       name: originalName || cleanText(name),
-      price: price.replace(/[\$\.]/g, ''),
-      brand: cleanText(brand).replace(/®/g, ''),
+      price: cleanPrice(price),
+      brand: cleanText(brand),
       link: HOST + link,
       img: HOST + img,
     }

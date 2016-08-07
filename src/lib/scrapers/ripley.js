@@ -1,4 +1,4 @@
-import { cleanText, getDOM } from '../helpers'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 import { parse } from 'url'
 
 export const HOST = 'http://simple.ripley.cl'
@@ -40,7 +40,7 @@ export const parseProducts = ($, res) => {
 
     return {
       name: cleanText(name),
-      price: parseInt(price.replace(/[\$\.]/g, ''), 10),
+      price: cleanPrice(price),
       link: HOST + link,
       img: `http:${img}`,
     }

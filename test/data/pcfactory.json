@@ -5,87 +5,87 @@
       "products": [
         {
           "name": "Capuchón RJ45 Sobrepuesto 10 Unidades",
-          "price": "890",
-          "brand": "Air802",
+          "price": 890,
+          "brand": "Air802®",
           "link": "https://pcfactory.cl/producto/6896-Capuchn.RJ45.Sobrepuesto.10.Unidades.",
           "img": "https://pcfactory.cl/foto/6896/1_100.jpg?t=1452713555"
         },
         {
-          "name": "Faceplate (1 salida)",
-          "price": "990",
-          "brand": "Exelink",
-          "link": "https://pcfactory.cl/producto/21927-Faceplate.1.salida",
-          "img": "https://pcfactory.cl/foto/21927/1_100.jpg?t=1459347600"
-        },
-        {
           "name": "Conector RJ45 5e 10 Unidades",
-          "price": "990",
-          "brand": "Air802",
+          "price": 990,
+          "brand": "Air802®",
           "link": "https://pcfactory.cl/producto/5700-Conector.RJ45.5e.10.Unidades",
           "img": "https://pcfactory.cl/foto/5700/1_100.jpg?t=1452713551"
         },
         {
           "name": "Faceplate (2 salidas)",
-          "price": "990",
-          "brand": "Air802",
+          "price": 990,
+          "brand": "Air802®",
           "link": "https://pcfactory.cl/producto/8177-Faceplate.2.salidas",
           "img": "https://pcfactory.cl/foto/8177/1_100.jpg?t=1452717149"
         },
         {
           "name": "X5C Quadricoptero - Protección de Aterrizaje",
-          "price": "990",
-          "brand": "Syma",
+          "price": 990,
+          "brand": "Syma®",
           "link": "https://pcfactory.cl/producto/19946-X5C.Quadricoptero.-.Proteccin.de.Aterrizaje",
           "img": "https://pcfactory.cl/foto/19946/1_100.jpg?t=1452789739"
         },
         {
+          "name": "Faceplate (1 salida)",
+          "price": 990,
+          "brand": "Exelink®",
+          "link": "https://pcfactory.cl/producto/21927-Faceplate.1.salida",
+          "img": "https://pcfactory.cl/foto/21927/1_100.jpg?t=1459347600"
+        },
+        {
+          "name": "Conector RJ45 CAT6 10 Unidades",
+          "price": 1990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/8967-Conector.RJ45.CAT6.10.Unidades",
+          "img": "https://pcfactory.cl/foto/8967/1_100.jpg?t=1452720735"
+        },
+        {
           "name": "Adaptador de DVI-I a VGA",
-          "price": "1990",
-          "brand": "Spektra",
+          "price": 1990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/1280-Adaptador.de.DVI-I.a.VGA",
           "img": "https://pcfactory.cl/foto/1280/1_100.jpg?t=1460032824"
         },
         {
           "name": "Cargador (adaptador) de casa micro USB Negro",
-          "price": "1990",
-          "brand": "Imexx",
+          "price": 1990,
+          "brand": "Imexx®",
           "link": "https://pcfactory.cl/producto/16448-Cargador.adaptador.de.casa.micro.USB.Negro",
           "img": "https://pcfactory.cl/foto/16448/1_100.jpg?t=1452790898"
         },
         {
           "name": "Cable Micro USB a USB",
-          "price": "1990",
-          "brand": "Spektra",
+          "price": 1990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/16878-Cable.Micro.USB.a.USB",
           "img": "https://pcfactory.cl/foto/16878/1_100.jpg?t=1452960244"
         },
         {
           "name": "Conector RJ45 CAT6 10 Unidades",
-          "price": "1990",
-          "brand": "Spektra",
-          "link": "https://pcfactory.cl/producto/8967-Conector.RJ45.CAT6.10.Unidades",
-          "img": "https://pcfactory.cl/foto/8967/1_100.jpg?t=1452720735"
-        },
-        {
-          "name": "Conector RJ45 CAT6 10 Unidades",
-          "price": "2590",
-          "brand": "Air802",
+          "price": 2590,
+          "brand": "Air802®",
           "link": "https://pcfactory.cl/producto/749-Conector.RJ45.CAT6.10.Unidades",
           "img": "https://pcfactory.cl/foto/749/1_100.jpg?t=1452778264"
         },
         {
-          "name": "Pack Pilas Recargables AAA 700 mAH 2 unidades",
-          "price": "2990",
-          "brand": "Energizer",
-          "link": "https://pcfactory.cl/producto/11922-Pack.Pilas.Recargables.AAA.700.mAH.2.unidades",
-          "img": "https://pcfactory.cl/foto/11922/1_100.jpg?t=1452714148"
+          "name": "Cable Micro-USB Blanco 1.2 Mt",
+          "price": 2990,
+          "brand": "Belkin®",
+          "link": "https://pcfactory.cl/producto/16944-Cable.Micro-USB.Blanco.1.2.Mt",
+          "img": "https://pcfactory.cl/foto/16944/1_100.jpg?t=1456756856"
         },
         {
-          "name": "Cable Micro-USB Negro 1.2Mt",
-          "price": "2990",
-          "brand": "Belkin",
-          "link": "https://pcfactory.cl/producto/16462-Cable.Micro-USB.Negro.1.2Mt",
-          "img": "https://pcfactory.cl/foto/16462/1_100.jpg?t=1452713895"
+          "name": "Cable Micro-USB Azul 1.2Mt",
+          "price": 2990,
+          "brand": "Belkin®",
+          "link": "https://pcfactory.cl/producto/16945-Cable.Micro-USB.Azul.1.2Mt",
+          "img": "https://pcfactory.cl/foto/16945/1_100.jpg?t=1452713934"
         }
       ],
       "nav": {
@@ -100,86 +100,86 @@
     "payload": {
       "products": [
         {
-          "name": "Lámina vidrio templado G play mini",
-          "price": "2990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/21721-Lmina.vidrio.templado.G.play.mini",
-          "img": "https://pcfactory.cl/foto/21721/1_100.jpg?t=1453996522"
+          "name": "Cable Micro-USB Negro 1.2Mt",
+          "price": 2990,
+          "brand": "Belkin®",
+          "link": "https://pcfactory.cl/producto/16462-Cable.Micro-USB.Negro.1.2Mt",
+          "img": "https://pcfactory.cl/foto/16462/1_100.jpg?t=1452713895"
         },
         {
           "name": "Lámina vidrio templado Samsung J5",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21724-Lmina.vidrio.templado.Samsung.J5",
           "img": "https://pcfactory.cl/foto/21724/1_100.jpg?t=1453996356"
         },
         {
           "name": "Lámina vidrio templado Samsung J1",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21725-Lmina.vidrio.templado.Samsung.J1",
           "img": "https://pcfactory.cl/foto/21725/1_100.jpg?t=1453995847"
         },
         {
           "name": "Para Moto G lamina vidrio templado",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/18250-Para.Moto.G.lamina.vidrio.templado",
           "img": "https://pcfactory.cl/foto/18250/1_100.jpg?t=1453737499"
         },
         {
           "name": "Lámina vidrio templado Huawei G play",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21728-Lmina.vidrio.templado.Huawei.G.play",
           "img": "https://pcfactory.cl/foto/21728/1_100.jpg?t=1453996013"
         },
         {
           "name": "Cable de audio auxiliar de 3,5 mm",
-          "price": "2990",
-          "brand": "Spektra",
+          "price": 2990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/20668-Cable.de.audio.auxiliar.de.35.mm",
           "img": "https://pcfactory.cl/foto/20668/1_100.jpg?t=1459530823"
         },
         {
           "name": "Lámina vidrio templado Samsung Core 2",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21729-Lmina.vidrio.templado.Samsung.Core.2",
           "img": "https://pcfactory.cl/foto/21729/1_100.jpg?t=1453995983"
         },
         {
           "name": "Lámina vidrio templado Samsung Grand Prime",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21730-Lmina.vidrio.templado.Samsung.Grand.Prime",
           "img": "https://pcfactory.cl/foto/21730/1_100.jpg?t=1453996563"
         },
         {
-          "name": "Cable Micro-USB Blanco 1.2 Mt",
-          "price": "2990",
-          "brand": "Belkin",
-          "link": "https://pcfactory.cl/producto/16944-Cable.Micro-USB.Blanco.1.2.Mt",
-          "img": "https://pcfactory.cl/foto/16944/1_100.jpg?t=1456756856"
-        },
-        {
           "name": "Lámina vidrio templado Huawei P8",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21731-Lmina.vidrio.templado.Huawei.P8",
           "img": "https://pcfactory.cl/foto/21731/1_100.jpg?t=1453995913"
         },
         {
+          "name": "Cable Micro-USB Blanco 1.2 Mt",
+          "price": 2990,
+          "brand": "Belkin®",
+          "link": "https://pcfactory.cl/producto/16944-Cable.Micro-USB.Blanco.1.2.Mt",
+          "img": "https://pcfactory.cl/foto/16944/1_100.jpg?t=1456756856"
+        },
+        {
           "name": "Cable Micro-USB Azul 1.2Mt",
-          "price": "2990",
-          "brand": "Belkin",
+          "price": 2990,
+          "brand": "Belkin®",
           "link": "https://pcfactory.cl/producto/16945-Cable.Micro-USB.Azul.1.2Mt",
           "img": "https://pcfactory.cl/foto/16945/1_100.jpg?t=1452713934"
         },
         {
           "name": "Lámina vidrio templado Samsung S6",
-          "price": "2990",
-          "brand": "PCF OEM",
+          "price": 2990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/21734-Lmina.vidrio.templado.Samsung.S6",
           "img": "https://pcfactory.cl/foto/21734/1_100.jpg?t=1453996592"
         }
@@ -197,87 +197,87 @@
       "products": [
         {
           "name": "Para Samsung Galaxy S5 Mini lamina vidrio templado",
-          "price": "3490",
-          "brand": "PCF OEM",
+          "price": 3490,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/18251-Para.Samsung.Galaxy.S5.Mini.lamina.vidrio.templado",
           "img": "https://pcfactory.cl/foto/18251/1_100.jpg?t=1452886887"
         },
         {
-          "name": "Para LG G2 Mini lámina vidrio templado",
-          "price": "3990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18460-Para.LG.G2.Mini.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18460/1_100.jpg?t=1452719729"
-        },
-        {
-          "name": "Cable HDMI / Micro HDMI 1.8 mt",
-          "price": "3990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/19634-Cable.HDMI..Micro.HDMI.1.8.mt",
-          "img": "https://pcfactory.cl/foto/19634/1_100.jpg?t=1452782022"
-        },
-        {
           "name": "Para Samsung Galaxy S4 lámina vidrio templado",
-          "price": "3990",
-          "brand": "Leaf",
+          "price": 3990,
+          "brand": "Leaf®",
           "link": "https://pcfactory.cl/producto/18464-Para.Samsung.Galaxy.S4.lmina.vidrio.templado",
           "img": "https://pcfactory.cl/foto/18464/1_100.jpg?t=1452957332"
         },
         {
           "name": "Para Samsung Galaxy S3 Neo lámina vidrio templado",
-          "price": "3990",
-          "brand": "Leaf",
+          "price": 3990,
+          "brand": "Leaf®",
           "link": "https://pcfactory.cl/producto/18467-Para.Samsung.Galaxy.S3.Neo.lmina.vidrio.templado",
           "img": "https://pcfactory.cl/foto/18467/1_100.jpg?t=1452715300"
         },
         {
           "name": "Cable HDMI / HDMI 1.8m versión 1.3",
-          "price": "3990",
-          "brand": "Spektra",
+          "price": 3990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/8950-Cable.HDMI..HDMI.1.8m.versin.1.3",
           "img": "https://pcfactory.cl/foto/8950/1_100.jpg?t=1452721934"
         },
         {
           "name": "Gamepad  Single Side",
-          "price": "3990",
-          "brand": "Spektra",
+          "price": 3990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/9187-Gamepad..Single.Side",
           "img": "https://pcfactory.cl/foto/9187/1_100.jpg?t=1452783345"
         },
         {
           "name": "Cargador (Adaptador) de pared universal Sin cable",
-          "price": "3990",
-          "brand": "Spektra",
+          "price": 3990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/16871-Cargador.Adaptador.de.pared.universal.Sin.cable",
           "img": "https://pcfactory.cl/foto/16871/1_100.jpg?t=1463077804"
         },
         {
           "name": "Cargador de automóvil universal sin cable",
-          "price": "3990",
-          "brand": "Spektra",
+          "price": 3990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/16872-Cargador.de.automvil.universal.sin.cable",
           "img": "https://pcfactory.cl/foto/16872/1_100.jpg?t=1463079486"
         },
         {
           "name": "Cable HDMI / Mini HDMI",
-          "price": "3990",
-          "brand": "PCF OEM",
+          "price": 3990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/11324-Cable.HDMI..Mini.HDMI",
           "img": "https://pcfactory.cl/foto/11324/1_100.jpg?t=1452878546"
         },
         {
           "name": "Cable Auxiliar Negro",
-          "price": "3990",
-          "brand": "Belkin",
+          "price": 3990,
+          "brand": "Belkin®",
           "link": "https://pcfactory.cl/producto/17953-Cable.Auxiliar.Negro",
           "img": "https://pcfactory.cl/foto/17953/1_100.jpg?t=1452714030"
         },
         {
           "name": "Cable Monitor VGA 1.8m",
-          "price": "3990",
-          "brand": "Spektra",
+          "price": 3990,
+          "brand": "Spektra®",
           "link": "https://pcfactory.cl/producto/8954-Cable.Monitor.VGA.1.8m",
           "img": "https://pcfactory.cl/foto/8954/1_100.jpg?t=1452727434"
+        },
+        {
+          "name": "Cable Extension VGA Monitor 3.0m",
+          "price": 3990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/8955-Cable.Extension.VGA.Monitor.3.0m",
+          "img": "https://pcfactory.cl/foto/8955/1_100.jpg?t=1452716215"
+        },
+        {
+          "name": "Conector RJ45 CAT5e 50 Unidades",
+          "price": 3990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/8966-Conector.RJ45.CAT5e.50.Unidades",
+          "img": "https://pcfactory.cl/foto/8966/1_100.jpg?t=1452713733"
         }
       ],
       "nav": {
@@ -292,88 +292,88 @@
     "payload": {
       "products": [
         {
-          "name": "Cable HDMI / Micro HDMI 1.8 mt",
-          "price": "3990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/19634-Cable.HDMI..Micro.HDMI.1.8.mt",
-          "img": "https://pcfactory.cl/foto/19634/1_100.jpg?t=1452782022"
+          "name": "Cable Extension VGA Monitor 3.0m",
+          "price": 3990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/8955-Cable.Extension.VGA.Monitor.3.0m",
+          "img": "https://pcfactory.cl/foto/8955/1_100.jpg?t=1452716215"
         },
         {
-          "name": "Para Samsung Galaxy S4 lámina vidrio templado",
-          "price": "3990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18464-Para.Samsung.Galaxy.S4.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18464/1_100.jpg?t=1452957332"
+          "name": "Conector RJ45 CAT5e 50 Unidades",
+          "price": 3990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/8966-Conector.RJ45.CAT5e.50.Unidades",
+          "img": "https://pcfactory.cl/foto/8966/1_100.jpg?t=1452713733"
         },
         {
-          "name": "Para Samsung Galaxy S3 Neo lámina vidrio templado",
-          "price": "3990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18467-Para.Samsung.Galaxy.S3.Neo.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18467/1_100.jpg?t=1452715300"
+          "name": "Cable Micro USB + Lightning Negro 2Mt",
+          "price": 3990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/21133-Cable.Micro.USB..Lightning.Negro.2Mt",
+          "img": "https://pcfactory.cl/foto/21133/1_100.jpg?t=1454009932"
         },
         {
-          "name": "Para Samsung Galaxy S5 Mini lámina vidrio templado",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18471-Para.Samsung.Galaxy.S5.Mini.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18471/1_100.jpg?t=1452787354"
+          "name": "Para Samsung Galaxy S5 lamina protectora vidrio templado",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/17839-Para.Samsung.Galaxy.S5.lamina.protectora.vidrio.templado",
+          "img": "https://pcfactory.cl/foto/17839/1_100.jpg?t=1452728247"
         },
         {
-          "name": "Soporte universal para Auto",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/21635-Soporte.universal.para.Auto",
-          "img": "https://pcfactory.cl/foto/21635/1_100.jpg?t=1452713964"
+          "name": "Para iPhone 6 4.7\" lámina vidrio templado",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/18458-Para.iPhone.6.4.7.lmina.vidrio.templado",
+          "img": "https://pcfactory.cl/foto/18458/1_100.jpg?t=1452715409"
         },
         {
-          "name": "Lámina vidrio templado Samsung J7",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/21726-Lmina.vidrio.templado.Samsung.J7",
-          "img": "https://pcfactory.cl/foto/21726/1_100.jpg?t=1453996461"
+          "name": "Lámina vidrio templado Galaxy J1",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/21916-Lmina.vidrio.templado.Galaxy.J1",
+          "img": "https://pcfactory.cl/foto/21916/1_100.jpg?t=1458158360"
         },
         {
-          "name": "Cable Video DVI / VGA 1.8m",
-          "price": "4990",
-          "brand": "Spektra",
-          "link": "https://pcfactory.cl/producto/8952-Cable.Video.DVI..VGA.1.8m",
-          "img": "https://pcfactory.cl/foto/8952/1_100.jpg?t=1452724398"
+          "name": "Para iPhone 6 Plus 5.5\" lámina vidrio templado",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/18459-Para.iPhone.6.Plus.5.5.lmina.vidrio.templado",
+          "img": "https://pcfactory.cl/foto/18459/1_100.jpg?t=1452715205"
         },
         {
-          "name": "Cargador de auto con cable Micro USB a USB",
-          "price": "4990",
-          "brand": "Spektra",
-          "link": "https://pcfactory.cl/producto/16873-Cargador.de.auto.con.cable.Micro.USB.a.USB",
-          "img": "https://pcfactory.cl/foto/16873/1_100.jpg?t=1463080555"
+          "name": "Soporte Universal Para  Auto Avantree HD160",
+          "price": 4990,
+          "brand": "Avantree®",
+          "link": "https://pcfactory.cl/producto/19207-Soporte.Universal.Para..Auto.Avantree.HD160",
+          "img": "https://pcfactory.cl/foto/19207/1_100.jpg?t=1453228705"
         },
         {
-          "name": "Adaptador de Salida C13 a Universal",
-          "price": "4990",
-          "brand": "Tripp Lite",
-          "link": "https://pcfactory.cl/producto/19868-Adaptador.de.Salida.C13.a.Universal",
-          "img": "https://pcfactory.cl/foto/19868/1_100.jpg?t=1452787238"
+          "name": "Lámina vidrio templado Galaxy J5",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/21917-Lmina.vidrio.templado.Galaxy.J5",
+          "img": "https://pcfactory.cl/foto/21917/1_100.jpg?t=1458158439"
         },
         {
-          "name": "Lámina vidrio templado Samsung Grand Neo Plus",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/21727-Lmina.vidrio.templado.Samsung.Grand.Neo.Plus",
-          "img": "https://pcfactory.cl/foto/21727/1_100.jpg?t=1453995877"
+          "name": "Lámina vidrio templado Galaxy J7",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/21918-Lmina.vidrio.templado.Galaxy.J7",
+          "img": "https://pcfactory.cl/foto/21918/1_100.jpg?t=1458846490"
         },
         {
-          "name": "Cargador (Adaptador) de casa con cable micro USB Negro",
-          "price": "4990",
-          "brand": "Spektra",
-          "link": "https://pcfactory.cl/producto/16875-Cargador.Adaptador.de.casa.con.cable.micro.USB.Negro",
-          "img": "https://pcfactory.cl/foto/16875/1_100.jpg?t=1453216588"
+          "name": "Para Moto G II generacion lámina vidrio templado",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/18463-Para.Moto.G.II.generacion.lmina.vidrio.templado",
+          "img": "https://pcfactory.cl/foto/18463/1_100.jpg?t=1453217131"
         },
         {
-          "name": "Lámina Vidrio Templado para Alcatel Idol mini 2",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/19891-Lmina.Vidrio.Templado.para.Alcatel.Idol.mini.2",
-          "img": "https://pcfactory.cl/foto/19891/1_100.jpg?t=1453411816"
+          "name": "Monopod Bluetooth Negro",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/19214-Monopod.Bluetooth.Negro",
+          "img": "https://pcfactory.cl/foto/19214/1_100.jpg?t=1454100798"
         }
       ],
       "nav": {
@@ -388,88 +388,88 @@
     "payload": {
       "products": [
         {
-          "name": "Para Samsung Galaxy S5 lamina protectora vidrio templado",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/17839-Para.Samsung.Galaxy.S5.lamina.protectora.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/17839/1_100.jpg?t=1452728247"
+          "name": "Transformador / Convertidor 220-110v  55w (MW-55U/MW-56F)",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/8104-Transformador..Convertidor.220-110v..55w.MW-55UMW-56F",
+          "img": "https://pcfactory.cl/foto/8104/1_100.jpg?t=1454082506"
         },
         {
-          "name": "Para iPhone 6 4.7\" lámina vidrio templado",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18458-Para.iPhone.6.4.7.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18458/1_100.jpg?t=1452715409"
+          "name": "Lámina Vidrio Templado para Alcatel Hero 2",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/19894-Lmina.Vidrio.Templado.para.Alcatel.Hero.2",
+          "img": "https://pcfactory.cl/foto/19894/1_100.jpg?t=1452794712"
         },
         {
-          "name": "Lámina vidrio templado Moto G3",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/21915-Lmina.vidrio.templado.Moto.G3",
-          "img": "https://pcfactory.cl/foto/21915/1_100.jpg?t=1461068458"
+          "name": "Lámina vidrio templado Samsung J2",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/23101-Lmina.vidrio.templado.Samsung.J2",
+          "img": "https://pcfactory.cl/foto/23101/1_100.jpg?t=1468961409"
+        },
+        {
+          "name": "Lámina Vidrio Templado para Samsung A3",
+          "price": 4990,
+          "brand": "Leaf®",
+          "link": "https://pcfactory.cl/producto/19908-Lmina.Vidrio.Templado.para.Samsung.A3",
+          "img": "https://pcfactory.cl/foto/19908/1_100.jpg?t=1452719592"
+        },
+        {
+          "name": "Capuchon RJ45 Sobrepuesto 50 Unidades Azul",
+          "price": 4990,
+          "brand": "Trimerx®",
+          "link": "https://pcfactory.cl/producto/22179-Capuchon.RJ45.Sobrepuesto.50.Unidades.Azul",
+          "img": "https://pcfactory.cl/foto/22179/1_100.jpg?t=1458670107"
+        },
+        {
+          "name": "Lámina vidrio templado Samsung J3",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/23102-Lmina.vidrio.templado.Samsung.J3",
+          "img": "https://pcfactory.cl/foto/23102/1_100.jpg?t=1468961549"
+        },
+        {
+          "name": "Lámina vidrio templado iPhone 6S+",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/21733-Lmina.vidrio.templado.iPhone.6S",
+          "img": "https://pcfactory.cl/foto/21733/1_100.jpg?t=1453996431"
+        },
+        {
+          "name": "Lámina vidrio templado Moto G4",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/23103-Lmina.vidrio.templado.Moto.G4",
+          "img": "https://pcfactory.cl/foto/23103/1_100.jpg?t=1468961074"
+        },
+        {
+          "name": "Lámina vidrio templado iPhone 5/5S",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/21879-Lmina.vidrio.templado.iPhone.55S",
+          "img": "https://pcfactory.cl/foto/21879/1_100.jpg?t=1456328570"
+        },
+        {
+          "name": "Lámina vidrio templado Moto G4 Plus",
+          "price": 4990,
+          "brand": "PCF OEM®",
+          "link": "https://pcfactory.cl/producto/23104-Lmina.vidrio.templado.Moto.G4.Plus",
+          "img": "https://pcfactory.cl/foto/23104/1_100.jpg?t=1468961256"
+        },
+        {
+          "name": "Cable HDMI / HDMI 1.8m versión 1.4",
+          "price": 4990,
+          "brand": "Spektra®",
+          "link": "https://pcfactory.cl/producto/1273-Cable.HDMI..HDMI.1.8m.versin.1.4",
+          "img": "https://pcfactory.cl/foto/1273/1_100.jpg?t=1452713915"
         },
         {
           "name": "Lámina vidrio templado LG K10",
-          "price": "4990",
-          "brand": "PCF OEM",
+          "price": 4990,
+          "brand": "PCF OEM®",
           "link": "https://pcfactory.cl/producto/23105-Lmina.vidrio.templado.LG.K10",
           "img": "https://pcfactory.cl/foto/23105/1_100.jpg?t=1468958781"
-        },
-        {
-          "name": "Para iPhone 6 Plus 5.5\" lámina vidrio templado",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18459-Para.iPhone.6.Plus.5.5.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18459/1_100.jpg?t=1452715205"
-        },
-        {
-          "name": "Soporte Universal Para  Auto Avantree HD160",
-          "price": "4990",
-          "brand": "Avantree",
-          "link": "https://pcfactory.cl/producto/19207-Soporte.Universal.Para..Auto.Avantree.HD160",
-          "img": "https://pcfactory.cl/foto/19207/1_100.jpg?t=1453228705"
-        },
-        {
-          "name": "Lámina vidrio templado Galaxy J1",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/21916-Lmina.vidrio.templado.Galaxy.J1",
-          "img": "https://pcfactory.cl/foto/21916/1_100.jpg?t=1458158360"
-        },
-        {
-          "name": "Lámina vidrio templado LG K5",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/23106-Lmina.vidrio.templado.LG.K5",
-          "img": "https://pcfactory.cl/foto/23106/1_100.jpg?t=1469216982"
-        },
-        {
-          "name": "Lámina vidrio templado Galaxy J5",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/21917-Lmina.vidrio.templado.Galaxy.J5",
-          "img": "https://pcfactory.cl/foto/21917/1_100.jpg?t=1458158439"
-        },
-        {
-          "name": "Para Moto G II generacion lámina vidrio templado",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/18463-Para.Moto.G.II.generacion.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18463/1_100.jpg?t=1453217131"
-        },
-        {
-          "name": "Monopod Bluetooth Negro",
-          "price": "4990",
-          "brand": "PCF OEM",
-          "link": "https://pcfactory.cl/producto/19214-Monopod.Bluetooth.Negro",
-          "img": "https://pcfactory.cl/foto/19214/1_100.jpg?t=1454100798"
-        },
-        {
-          "name": "Lámina vidrio templado Galaxy J7",
-          "price": "4990",
-          "brand": "Leaf",
-          "link": "https://pcfactory.cl/producto/21918-Lmina.vidrio.templado.Galaxy.J7",
-          "img": "https://pcfactory.cl/foto/21918/1_100.jpg?t=1458846490"
         }
       ],
       "nav": {
