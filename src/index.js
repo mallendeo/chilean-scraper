@@ -1,19 +1,28 @@
-import * as pcfactory from './lib/scrapers/pcfactory'
-import * as falabella from './lib/scrapers/falabella'
-import * as paris from './lib/scrapers/paris'
-import * as spdigital from './lib/scrapers/spdigital'
-import * as ripley from './lib/scrapers/ripley'
-import * as sodimac from './lib/scrapers/sodimac'
-import * as olimex from './lib/scrapers/olimex'
-import * as casaroyal from './lib/scrapers/casaroyal'
+/* eslint no-console:0 */
 
-export default {
-  pcfactory,
-  falabella,
-  paris,
-  spdigital,
-  ripley,
-  sodimac,
-  olimex,
-  casaroyal,
-}
+import handler from './lib/handler'
+
+const scraper = handler.loadScraper('spdigital')
+
+scraper.getAllProducts()
+
+scraper.emitter.on('gettingProducts', data => {
+  if (data.category) {
+    console.log('=============================')
+    console.log('\tname:', data.category.name)
+    console.log('\tcategory:', data.cIndex, 'of', data.cList.length)
+    console.log('\tnext category:', data.nextCategory.name)
+    console.log('=============================')
+    console.log('--')
+    return
+  }
+  console.log('=============================')
+  console.log('page:', data.page)
+  console.log('=============================')
+})
+
+let total = 0
+scraper.emitter.on('gotProducts', ({ products, nav }) => {
+  console.log('products total:', total += products.length)
+  console.log('nav:', nav)
+})

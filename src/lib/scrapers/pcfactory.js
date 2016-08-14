@@ -1,29 +1,37 @@
 import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'https://pcfactory.cl'
-const SEARCH_URL = `${HOST}?buscar=ID`
 
-export const makeUrl = (page = 1) => `${SEARCH_URL}&pagina=${page}`
+export const makeUrl = (url, page = 1) => `${url}&pagina=${page}`
 
-export const getNav = $ => {
-  const nav = $('#spx_mostrando ~ table .main')
-  const current = nav.children('strong').text()
-  const navParent = nav.parent()
-  const next = navParent.next().children('a').attr('href')
-  const prev = navParent.prev().children('a').attr('href')
+export const parseCategories = $ => $('.main_link[href*="?papa"]')
+  .map((i, elem) => ({
+    name: cleanText($(elem).text()),
+    href: HOST + $(elem).attr('href'),
+  })).get()
+
+export const getCategories = () => getDOM(`${HOST}/mapa`)
+  .then(({ $ }) => parseCategories($))
+
+export const getNav = ($, res) => {
+  const nav = $('#spx_mostrando ~ table .main').parent()
+  const next = nav.next().children('a').attr('href')
+  const prev = nav.prev().children('a').attr('href')
 
   return {
     prev: prev ? HOST + prev : null,
-    current: `${SEARCH_URL}&pagina=${current}`,
+    current: HOST + res.request.path,
     next: next ? HOST + next : null,
   }
 }
 
-export const parseProducts = $ => {
-  const elems = $('.content > div > table:nth-of-type(2) > tr > td')
+export const parseProducts = ($, res) => {
+  const elems = $('.content > div > table:nth-of-type(3) > tr > td')
 
-  const nav = getNav($)
+  const nav = getNav($, res)
   const products = elems.map((i, elem) => {
+    if ($(elem).text().length < 10) return null
+
     const link = $(elem).find('tr[id^="link_ficha"] a').attr('href')
     const img = $(elem).find('img[src^="/foto/"]').attr('src')
     const name = $(elem).find('.nombre_corto').text()
@@ -37,10 +45,10 @@ export const parseProducts = $ => {
       link: HOST + link,
       img: HOST + img,
     }
-  }).get()
+  }).get().filter(p => p !== null)
 
   return { products, nav }
 }
 
-export const getProducts = page => getDOM(makeUrl(page))
-  .then(({ $ }) => parseProducts($))
+export const getProducts = (url, page) =>
+  getDOM(makeUrl(url, page)).then(({ $, res }) => parseProducts($, res))

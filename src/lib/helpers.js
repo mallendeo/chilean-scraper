@@ -16,5 +16,5 @@ export const getDOM = (url, headers = {}) =>
     return { $, res, body }
   })
 
-export const cleanText = text => text.trim().replace(/[\r\n\t]/ig, '')
+export const cleanText = text => text.trim().replace(/[\r\n\t®]/ig, '')
 export const cleanPrice = price => parseInt(price.replace(/[\$\.]/g, ''), 10)
