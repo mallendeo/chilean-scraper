@@ -1,9 +1,10 @@
 import cheerio from 'cheerio'
+import fs from 'fs-extra'
 
 export const compare = (a, b) => JSON.stringify(a) === JSON.stringify(b)
 
-export const matchProducts = (pages, data, parser) => !(pages.some(page => {
-  const payload = parser(cheerio.load(page.body), page.res)
-  const products = data.find(p => p.url === page.url)
-  return !(compare(payload, products.payload))
+export const matchProducts = (data, parser) => !(data.some(info => {
+  const html = fs.readFileSync(`./pages/${info.file}`, 'utf8')
+  const payload = parser({ $: cheerio.load(html), res: info.res })
+  return !(compare(payload.products, info.payload.products))
 }))

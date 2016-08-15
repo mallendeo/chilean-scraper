@@ -1,481 +1,399 @@
 [
   {
-    "url": "https://pcfactory.cl/?buscar=ID&pagina=1",
+    "url": "https://pcfactory.cl/?papa=645&categoria=655&pagina=1",
+    "file": "pcfactory/page-0.html",
     "payload": {
       "products": [
         {
-          "name": "Capuchón RJ45 Sobrepuesto 10 Unidades",
-          "price": 890,
-          "brand": "Air802®",
-          "link": "https://pcfactory.cl/producto/6896-Capuchn.RJ45.Sobrepuesto.10.Unidades.",
-          "img": "https://pcfactory.cl/foto/6896/1_100.jpg?t=1452713555"
+          "name": "Telefono Aló Entel Hogar",
+          "price": 6590,
+          "brand": "Huawei",
+          "link": "https://pcfactory.cl/producto/18956-Telefono.Al.Entel.Hogar",
+          "img": "https://pcfactory.cl/foto/18956/1_100.jpg?t=1452813429"
         },
         {
-          "name": "Conector RJ45 5e 10 Unidades",
-          "price": 990,
-          "brand": "Air802®",
-          "link": "https://pcfactory.cl/producto/5700-Conector.RJ45.5e.10.Unidades",
-          "img": "https://pcfactory.cl/foto/5700/1_100.jpg?t=1452713551"
+          "name": "Celular Azumi L2Z Negro Prepago Claro",
+          "price": 9990,
+          "brand": "Azumi",
+          "link": "https://pcfactory.cl/producto/21680-Celular.Azumi.L2Z.Negro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/21680/1_100.jpg?t=1453237726"
         },
         {
-          "name": "Faceplate (2 salidas)",
-          "price": 990,
-          "brand": "Air802®",
-          "link": "https://pcfactory.cl/producto/8177-Faceplate.2.salidas",
-          "img": "https://pcfactory.cl/foto/8177/1_100.jpg?t=1452717149"
+          "name": "Celular Alcatel 1050 Prepago Claro",
+          "price": 11790,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/22136-Celular.Alcatel.1050.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/22136/1_100.jpg?t=1459187450"
         },
         {
-          "name": "X5C Quadricoptero - Protección de Aterrizaje",
-          "price": 990,
-          "brand": "Syma®",
-          "link": "https://pcfactory.cl/producto/19946-X5C.Quadricoptero.-.Proteccin.de.Aterrizaje",
-          "img": "https://pcfactory.cl/foto/19946/1_100.jpg?t=1452789739"
+          "name": "Celular Alcatel 1035 Prepago Claro",
+          "price": 13990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/22135-Celular.Alcatel.1035.Prepago.Claro.",
+          "img": "https://pcfactory.cl/foto/22135/1_100.jpg?t=1459180658"
         },
         {
-          "name": "Faceplate (1 salida)",
-          "price": 990,
-          "brand": "Exelink®",
-          "link": "https://pcfactory.cl/producto/21927-Faceplate.1.salida",
-          "img": "https://pcfactory.cl/foto/21927/1_100.jpg?t=1459347600"
-        },
-        {
-          "name": "Conector RJ45 CAT6 10 Unidades",
-          "price": 1990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8967-Conector.RJ45.CAT6.10.Unidades",
-          "img": "https://pcfactory.cl/foto/8967/1_100.jpg?t=1452720735"
-        },
-        {
-          "name": "Adaptador de DVI-I a VGA",
-          "price": 1990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/1280-Adaptador.de.DVI-I.a.VGA",
-          "img": "https://pcfactory.cl/foto/1280/1_100.jpg?t=1460032824"
-        },
-        {
-          "name": "Cargador (adaptador) de casa micro USB Negro",
-          "price": 1990,
-          "brand": "Imexx®",
-          "link": "https://pcfactory.cl/producto/16448-Cargador.adaptador.de.casa.micro.USB.Negro",
-          "img": "https://pcfactory.cl/foto/16448/1_100.jpg?t=1452790898"
-        },
-        {
-          "name": "Cable Micro USB a USB",
-          "price": 1990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/16878-Cable.Micro.USB.a.USB",
-          "img": "https://pcfactory.cl/foto/16878/1_100.jpg?t=1452960244"
-        },
-        {
-          "name": "Conector RJ45 CAT6 10 Unidades",
-          "price": 2590,
-          "brand": "Air802®",
-          "link": "https://pcfactory.cl/producto/749-Conector.RJ45.CAT6.10.Unidades",
-          "img": "https://pcfactory.cl/foto/749/1_100.jpg?t=1452778264"
-        },
-        {
-          "name": "Cable Micro-USB Blanco 1.2 Mt",
-          "price": 2990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/16944-Cable.Micro-USB.Blanco.1.2.Mt",
-          "img": "https://pcfactory.cl/foto/16944/1_100.jpg?t=1456756856"
-        },
-        {
-          "name": "Cable Micro-USB Azul 1.2Mt",
-          "price": 2990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/16945-Cable.Micro-USB.Azul.1.2Mt",
-          "img": "https://pcfactory.cl/foto/16945/1_100.jpg?t=1452713934"
+          "name": "Celular Azumi L3GA LITE",
+          "price": 21990,
+          "brand": "Azumi",
+          "link": "https://pcfactory.cl/producto/23053-Celular.Azumi.L3GA.LITE",
+          "img": "https://pcfactory.cl/foto/23053/1_100.jpg?t=1468854197"
         }
       ],
       "nav": {
         "prev": null,
-        "current": "https://pcfactory.cl?buscar=ID&pagina=1",
-        "next": "https://pcfactory.cl/?buscar=ID&pagina=1&pagina=2"
+        "current": "https://pcfactory.cl/?papa=645&categoria=655&pagina=1",
+        "next": null
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/?papa=645&categoria=655&pagina=1"
       }
     }
   },
   {
-    "url": "https://pcfactory.cl/?buscar=ID&pagina=2",
+    "url": "https://pcfactory.cl/?papa=645&categoria=731&pagina=1",
+    "file": "pcfactory/page-1.html",
     "payload": {
       "products": [
         {
-          "name": "Cable Micro-USB Negro 1.2Mt",
-          "price": 2990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/16462-Cable.Micro-USB.Negro.1.2Mt",
-          "img": "https://pcfactory.cl/foto/16462/1_100.jpg?t=1452713895"
+          "name": "Kit Modem USB Modem Wifi Banda Ancha Movil Prepago Entel",
+          "price": 27990,
+          "brand": "Entel",
+          "link": "https://pcfactory.cl/producto/21336-Kit.Modem.USB.Modem.Wifi.Banda.Ancha.Movil.Prepago.Entel",
+          "img": "https://pcfactory.cl/foto/21336/1_100.jpg?t=1452788118"
         },
         {
-          "name": "Lámina vidrio templado Samsung J5",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21724-Lmina.vidrio.templado.Samsung.J5",
-          "img": "https://pcfactory.cl/foto/21724/1_100.jpg?t=1453996356"
+          "name": "BAM Prepago WOM 4G",
+          "price": 32990,
+          "brand": "Huawei",
+          "link": "https://pcfactory.cl/producto/21224-BAM.Prepago.WOM.4G",
+          "img": "https://pcfactory.cl/foto/21224/1_100.jpg?t=1452775993"
         },
         {
-          "name": "Lámina vidrio templado Samsung J1",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21725-Lmina.vidrio.templado.Samsung.J1",
-          "img": "https://pcfactory.cl/foto/21725/1_100.jpg?t=1453995847"
-        },
-        {
-          "name": "Para Moto G lamina vidrio templado",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/18250-Para.Moto.G.lamina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18250/1_100.jpg?t=1453737499"
-        },
-        {
-          "name": "Lámina vidrio templado Huawei G play",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21728-Lmina.vidrio.templado.Huawei.G.play",
-          "img": "https://pcfactory.cl/foto/21728/1_100.jpg?t=1453996013"
-        },
-        {
-          "name": "Cable de audio auxiliar de 3,5 mm",
-          "price": 2990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/20668-Cable.de.audio.auxiliar.de.35.mm",
-          "img": "https://pcfactory.cl/foto/20668/1_100.jpg?t=1459530823"
-        },
-        {
-          "name": "Lámina vidrio templado Samsung Core 2",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21729-Lmina.vidrio.templado.Samsung.Core.2",
-          "img": "https://pcfactory.cl/foto/21729/1_100.jpg?t=1453995983"
-        },
-        {
-          "name": "Lámina vidrio templado Samsung Grand Prime",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21730-Lmina.vidrio.templado.Samsung.Grand.Prime",
-          "img": "https://pcfactory.cl/foto/21730/1_100.jpg?t=1453996563"
-        },
-        {
-          "name": "Lámina vidrio templado Huawei P8",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21731-Lmina.vidrio.templado.Huawei.P8",
-          "img": "https://pcfactory.cl/foto/21731/1_100.jpg?t=1453995913"
-        },
-        {
-          "name": "Cable Micro-USB Blanco 1.2 Mt",
-          "price": 2990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/16944-Cable.Micro-USB.Blanco.1.2.Mt",
-          "img": "https://pcfactory.cl/foto/16944/1_100.jpg?t=1456756856"
-        },
-        {
-          "name": "Cable Micro-USB Azul 1.2Mt",
-          "price": 2990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/16945-Cable.Micro-USB.Azul.1.2Mt",
-          "img": "https://pcfactory.cl/foto/16945/1_100.jpg?t=1452713934"
-        },
-        {
-          "name": "Lámina vidrio templado Samsung S6",
-          "price": 2990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21734-Lmina.vidrio.templado.Samsung.S6",
-          "img": "https://pcfactory.cl/foto/21734/1_100.jpg?t=1453996592"
+          "name": "MiFi 4G Huawei Prepago WOM",
+          "price": 44990,
+          "brand": "WOM",
+          "link": "https://pcfactory.cl/producto/21909-MiFi.4G.Huawei.Prepago.WOM",
+          "img": "https://pcfactory.cl/foto/21909/1_100.jpg?t=1456841731"
         }
       ],
       "nav": {
-        "prev": "https://pcfactory.cl/?buscar=ID&pagina=2&pagina=1",
-        "current": "https://pcfactory.cl?buscar=ID&pagina=2",
-        "next": "https://pcfactory.cl/?buscar=ID&pagina=2&pagina=3"
+        "prev": null,
+        "current": "https://pcfactory.cl/?papa=645&categoria=731&pagina=1",
+        "next": null
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/?papa=645&categoria=731&pagina=1"
       }
     }
   },
   {
-    "url": "https://pcfactory.cl/?buscar=ID&pagina=3",
+    "url": "https://pcfactory.cl/?papa=645&categoria=730&pagina=1",
+    "file": "pcfactory/page-2.html",
     "payload": {
       "products": [
         {
-          "name": "Para Samsung Galaxy S5 Mini lamina vidrio templado",
-          "price": 3490,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/18251-Para.Samsung.Galaxy.S5.Mini.lamina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18251/1_100.jpg?t=1452886887"
+          "name": "SIM Prepago WOM \"1000\"",
+          "price": 590,
+          "brand": "WOM",
+          "link": "https://pcfactory.cl/producto/20449-SIM.Prepago.WOM.1000.",
+          "img": "https://pcfactory.cl/foto/20449/1_100.jpg?t=1452721649"
         },
         {
-          "name": "Para Samsung Galaxy S4 lámina vidrio templado",
-          "price": 3990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/18464-Para.Samsung.Galaxy.S4.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18464/1_100.jpg?t=1452957332"
+          "name": "SIM Prepago Multimedia Claro",
+          "price": 1290,
+          "brand": "Claro",
+          "link": "https://pcfactory.cl/producto/16127-SIM.Prepago.Multimedia.Claro",
+          "img": "https://pcfactory.cl/foto/16127/1_100.jpg?t=1452774741"
         },
         {
-          "name": "Para Samsung Galaxy S3 Neo lámina vidrio templado",
-          "price": 3990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/18467-Para.Samsung.Galaxy.S3.Neo.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18467/1_100.jpg?t=1452715300"
+          "name": "SIM Prepago Entel",
+          "price": 1390,
+          "brand": "Entel",
+          "link": "https://pcfactory.cl/producto/17818-SIM.Prepago.Entel",
+          "img": "https://pcfactory.cl/foto/17818/1_100.jpg?t=1452719054"
         },
         {
-          "name": "Cable HDMI / HDMI 1.8m versión 1.3",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8950-Cable.HDMI..HDMI.1.8m.versin.1.3",
-          "img": "https://pcfactory.cl/foto/8950/1_100.jpg?t=1452721934"
+          "name": "SIM Prepago WOM \"3000\"",
+          "price": 1490,
+          "brand": "WOM",
+          "link": "https://pcfactory.cl/producto/20450-SIM.Prepago.WOM.3000.",
+          "img": "https://pcfactory.cl/foto/20450/1_100.jpg?t=1452774890"
         },
         {
-          "name": "Gamepad  Single Side",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/9187-Gamepad..Single.Side",
-          "img": "https://pcfactory.cl/foto/9187/1_100.jpg?t=1452783345"
+          "name": "SIMPostpago WOM",
+          "price": 1890,
+          "brand": "WOM",
+          "link": "https://pcfactory.cl/producto/200-SIMPostpago.WOM",
+          "img": "https://pcfactory.cl/foto/200/1_100.jpg?t=1452778316"
         },
         {
-          "name": "Cargador (Adaptador) de pared universal Sin cable",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/16871-Cargador.Adaptador.de.pared.universal.Sin.cable",
-          "img": "https://pcfactory.cl/foto/16871/1_100.jpg?t=1463077804"
+          "name": "SIM Blister 4G",
+          "price": 1890,
+          "brand": "Virgin",
+          "link": "https://pcfactory.cl/producto/22863-SIM.Blister.4G",
+          "img": "https://pcfactory.cl/foto/22863/1_100.jpg?t=1466432267"
         },
         {
-          "name": "Cargador de automóvil universal sin cable",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/16872-Cargador.de.automvil.universal.sin.cable",
-          "img": "https://pcfactory.cl/foto/16872/1_100.jpg?t=1463079486"
+          "name": "SIM Prepago WOM \"2000\"",
+          "price": 1890,
+          "brand": "WOM",
+          "link": "https://pcfactory.cl/producto/22835-SIM.Prepago.WOM.2000",
+          "img": "https://pcfactory.cl/foto/22835/1_100.jpg?t=1465825271"
         },
         {
-          "name": "Cable HDMI / Mini HDMI",
-          "price": 3990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/11324-Cable.HDMI..Mini.HDMI",
-          "img": "https://pcfactory.cl/foto/11324/1_100.jpg?t=1452878546"
+          "name": "SIM 4G",
+          "price": 3790,
+          "brand": "Virgin",
+          "link": "https://pcfactory.cl/producto/22864-SIM.4G",
+          "img": "https://pcfactory.cl/foto/22864/1_100.jpg?t=1466429229"
         },
         {
-          "name": "Cable Auxiliar Negro",
+          "name": "SIM 4G Prepago Movistar",
           "price": 3990,
-          "brand": "Belkin®",
-          "link": "https://pcfactory.cl/producto/17953-Cable.Auxiliar.Negro",
-          "img": "https://pcfactory.cl/foto/17953/1_100.jpg?t=1452714030"
+          "brand": "Movistar",
+          "link": "https://pcfactory.cl/producto/21709-SIM.4G.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/21709/1_100.jpg?t=1453919942"
         },
         {
-          "name": "Cable Monitor VGA 1.8m",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8954-Cable.Monitor.VGA.1.8m",
-          "img": "https://pcfactory.cl/foto/8954/1_100.jpg?t=1452727434"
+          "name": "SIM 4G Antiplan 1 - Para Navegar mas",
+          "price": 6590,
+          "brand": "Virgin",
+          "link": "https://pcfactory.cl/producto/22865-SIM.4G.Antiplan.1.-.Para.Navegar.mas",
+          "img": "https://pcfactory.cl/foto/22865/1_100.jpg?t=1466429852"
         },
         {
-          "name": "Cable Extension VGA Monitor 3.0m",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8955-Cable.Extension.VGA.Monitor.3.0m",
-          "img": "https://pcfactory.cl/foto/8955/1_100.jpg?t=1452716215"
+          "name": "SIM 4G Antiplan 2 - Para Hablar mas",
+          "price": 9490,
+          "brand": "Virgin",
+          "link": "https://pcfactory.cl/producto/22866-SIM.4G.Antiplan.2.-.Para.Hablar.mas",
+          "img": "https://pcfactory.cl/foto/22866/1_100.jpg?t=1466430425"
         },
         {
-          "name": "Conector RJ45 CAT5e 50 Unidades",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8966-Conector.RJ45.CAT5e.50.Unidades",
-          "img": "https://pcfactory.cl/foto/8966/1_100.jpg?t=1452713733"
+          "name": "SIM 4G Antiplan 2 - Para Navegar mas",
+          "price": 9490,
+          "brand": "Virgin",
+          "link": "https://pcfactory.cl/producto/22867-SIM.4G.Antiplan.2.-.Para.Navegar.mas",
+          "img": "https://pcfactory.cl/foto/22867/1_100.jpg?t=1466431627"
         }
       ],
       "nav": {
-        "prev": "https://pcfactory.cl/?buscar=ID&pagina=3&pagina=2",
-        "current": "https://pcfactory.cl?buscar=ID&pagina=3",
-        "next": "https://pcfactory.cl/?buscar=ID&pagina=3&pagina=4"
+        "prev": null,
+        "current": "https://pcfactory.cl/?papa=645&categoria=730&pagina=1",
+        "next": null
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/?papa=645&categoria=730&pagina=1"
       }
     }
   },
   {
-    "url": "https://pcfactory.cl/?buscar=ID&pagina=4",
+    "url": "https://pcfactory.cl/?papa=645&categoria=432&pagina=1",
+    "file": "pcfactory/page-3.html",
     "payload": {
       "products": [
         {
-          "name": "Cable Extension VGA Monitor 3.0m",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8955-Cable.Extension.VGA.Monitor.3.0m",
-          "img": "https://pcfactory.cl/foto/8955/1_100.jpg?t=1452716215"
+          "name": "Smartphone PIXI 3 Dual Core 4GB 3,5\" Android 4.4 Negro Prepago Movistar",
+          "price": 26990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/21531-Smartphone.PIXI.3.Dual.Core.4GB.35.Android.4.4.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/21531/1_100.jpg?t=1461940309"
         },
         {
-          "name": "Conector RJ45 CAT5e 50 Unidades",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/8966-Conector.RJ45.CAT5e.50.Unidades",
-          "img": "https://pcfactory.cl/foto/8966/1_100.jpg?t=1452713733"
+          "name": "Smartphone PIXI 3 dual core 4GB 4\" Android 4.4 Negro Prepago Claro",
+          "price": 36990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/20202-Smartphone.PIXI.3.dual.core.4GB.4.Android.4.4.Negro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/20202/1_100.jpg?t=1452780718"
         },
         {
-          "name": "Cable Micro USB + Lightning Negro 2Mt",
-          "price": 3990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/21133-Cable.Micro.USB..Lightning.Negro.2Mt",
-          "img": "https://pcfactory.cl/foto/21133/1_100.jpg?t=1454009932"
+          "name": "Smartphone Y360 Quad core 4GB 4\" Android 4.4 Negro",
+          "price": 42990,
+          "brand": "Huawei",
+          "link": "https://pcfactory.cl/producto/20063-Smartphone.Y360.Quad.core.4GB.4.Android.4.4.Negro",
+          "img": "https://pcfactory.cl/foto/20063/1_100.jpg?t=1452799688"
         },
         {
-          "name": "Para Samsung Galaxy S5 lamina protectora vidrio templado",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/17839-Para.Samsung.Galaxy.S5.lamina.protectora.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/17839/1_100.jpg?t=1452728247"
+          "name": "Smartphone Pixi 3 Dual Core 4GB 4,5\" Android 4.4 Negro Prepago Claro",
+          "price": 42990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/22336-Smartphone.Pixi.3.Dual.Core.4GB.45.Android.4.4.Negro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/22336/1_100.jpg?t=1461097334"
         },
         {
-          "name": "Para iPhone 6 4.7\" lámina vidrio templado",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/18458-Para.iPhone.6.4.7.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18458/1_100.jpg?t=1452715409"
+          "name": "Smartphone PIXI First Quad Core 8GB 4\" Android 4.4 Plata Liberado",
+          "price": 44990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/21532-Smartphone.PIXI.First.Quad.Core.8GB.4.Android.4.4.Plata.Liberado",
+          "img": "https://pcfactory.cl/foto/21532/1_100.jpg?t=1459361970"
         },
         {
-          "name": "Lámina vidrio templado Galaxy J1",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/21916-Lmina.vidrio.templado.Galaxy.J1",
-          "img": "https://pcfactory.cl/foto/21916/1_100.jpg?t=1458158360"
+          "name": "Smartphone ACE 4 NEO dual core 4GB 4\" Android 4.4 Negro Prepago Movistar",
+          "price": 49990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/20203-Smartphone.ACE.4.NEO.dual.core.4GB.4.Android.4.4.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/20203/1_100.jpg?t=1452790028"
         },
         {
-          "name": "Para iPhone 6 Plus 5.5\" lámina vidrio templado",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/18459-Para.iPhone.6.Plus.5.5.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18459/1_100.jpg?t=1452715205"
+          "name": "Smartphone Blade L5 Dual Core 8GB 5\" Android 5.1 Gris Oscuro Prepago Claro",
+          "price": 52990,
+          "brand": "ZTE",
+          "link": "https://pcfactory.cl/producto/22025-Smartphone.Blade.L5.Dual.Core.8GB.5.Android.5.1.Gris.Oscuro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/22025/1_100.jpg?t=1459455198"
         },
         {
-          "name": "Soporte Universal Para  Auto Avantree HD160",
-          "price": 4990,
-          "brand": "Avantree®",
-          "link": "https://pcfactory.cl/producto/19207-Soporte.Universal.Para..Auto.Avantree.HD160",
-          "img": "https://pcfactory.cl/foto/19207/1_100.jpg?t=1453228705"
+          "name": "Smartphone Galaxy Core 2 Quad Core 4GB  4,5\" Android 4.4 Negro Prepago Movistar",
+          "price": 54990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/17900-Smartphone.Galaxy.Core.2.Quad.Core.4GB..45.Android.4.4.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/17900/1_100.jpg?t=1452718937"
         },
         {
-          "name": "Lámina vidrio templado Galaxy J5",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/21917-Lmina.vidrio.templado.Galaxy.J5",
-          "img": "https://pcfactory.cl/foto/21917/1_100.jpg?t=1458158439"
+          "name": "Smartphone Galaxy Core 2 Quad Core 4GB  4,5\" Android 4.4 Blanco Prepago Movistar",
+          "price": 54990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/17902-Smartphone.Galaxy.Core.2.Quad.Core.4GB..45.Android.4.4.Blanco.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/17902/1_100.jpg?t=1452721479"
         },
         {
-          "name": "Lámina vidrio templado Galaxy J7",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/21918-Lmina.vidrio.templado.Galaxy.J7",
-          "img": "https://pcfactory.cl/foto/21918/1_100.jpg?t=1458846490"
+          "name": "Smartphone Pop 2 Quad Core 8GB 4,5\" 4G Android 4.4 Negro Prepago Movistar",
+          "price": 59990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/19659-Smartphone.Pop.2.Quad.Core.8GB.45.4G.Android.4.4.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/19659/1_100.jpg?t=1452715729"
         },
         {
-          "name": "Para Moto G II generacion lámina vidrio templado",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/18463-Para.Moto.G.II.generacion.lmina.vidrio.templado",
-          "img": "https://pcfactory.cl/foto/18463/1_100.jpg?t=1453217131"
+          "name": "Smartphone BLADE A460 Quad Core 8GB 5\" Android 5.1 Negro Prepago Claro",
+          "price": 59990,
+          "brand": "ZTE",
+          "link": "https://pcfactory.cl/producto/21330-Smartphone.BLADE.A460.Quad.Core.8GB.5.Android.5.1.Negro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/21330/1_100.jpg?t=1457532634"
         },
         {
-          "name": "Monopod Bluetooth Negro",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/19214-Monopod.Bluetooth.Negro",
-          "img": "https://pcfactory.cl/foto/19214/1_100.jpg?t=1454100798"
+          "name": "Smartphone PIXI 4 Quad Core 8GB 5\" Android 6.0 Prepago Entel",
+          "price": 64990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/21529-Smartphone.PIXI.4.Quad.Core.8GB.5.Android.6.0.Prepago.Entel",
+          "img": "https://pcfactory.cl/foto/21529/1_100.jpg?t=1469044432"
         }
       ],
       "nav": {
-        "prev": "https://pcfactory.cl/?buscar=ID&pagina=4&pagina=3",
-        "current": "https://pcfactory.cl?buscar=ID&pagina=4",
-        "next": "https://pcfactory.cl/?buscar=ID&pagina=4&pagina=5"
+        "prev": null,
+        "current": "https://pcfactory.cl/?papa=645&categoria=432&pagina=1",
+        "next": "https://pcfactory.cl/?categoria=432&papa=645&pagina=2"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/?papa=645&categoria=432&pagina=1"
       }
     }
   },
   {
-    "url": "https://pcfactory.cl/?buscar=ID&pagina=5",
+    "url": "https://pcfactory.cl/?papa=645&categoria=432&pagina=2",
+    "file": "pcfactory/page-4.html",
     "payload": {
       "products": [
         {
-          "name": "Transformador / Convertidor 220-110v  55w (MW-55U/MW-56F)",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/8104-Transformador..Convertidor.220-110v..55w.MW-55UMW-56F",
-          "img": "https://pcfactory.cl/foto/8104/1_100.jpg?t=1454082506"
+          "name": "Smartphone Pop 3 Quad Core 8GB 5\" Android 5.1 Silver Prepago Claro",
+          "price": 64990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/22338-Smartphone.Pop.3.Quad.Core.8GB.5.Android.5.1.Silver.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/22338/1_100.jpg?t=1461616582"
         },
         {
-          "name": "Lámina Vidrio Templado para Alcatel Hero 2",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/19894-Lmina.Vidrio.Templado.para.Alcatel.Hero.2",
-          "img": "https://pcfactory.cl/foto/19894/1_100.jpg?t=1452794712"
+          "name": "Smartphone Galaxy J1 Ace Dual core 4GB 4,3\" Android 4.4 Negro Liberado",
+          "price": 69990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/20604-Smartphone.Galaxy.J1.Ace.Dual.core.4GB.43.Android.4.4.Negro.Liberado",
+          "img": "https://pcfactory.cl/foto/20604/1_100.jpg?t=1452713846"
         },
         {
-          "name": "Lámina vidrio templado Samsung J2",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/23101-Lmina.vidrio.templado.Samsung.J2",
-          "img": "https://pcfactory.cl/foto/23101/1_100.jpg?t=1468961409"
+          "name": "Smartphone Galaxy J1 Ace Dual core 4GB 4,3\" Android 4.4 Blanco Liberado",
+          "price": 69990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/20605-Smartphone.Galaxy.J1.Ace.Dual.core.4GB.43.Android.4.4.Blanco.Liberado",
+          "img": "https://pcfactory.cl/foto/20605/1_100.jpg?t=1452715009"
         },
         {
-          "name": "Lámina Vidrio Templado para Samsung A3",
-          "price": 4990,
-          "brand": "Leaf®",
-          "link": "https://pcfactory.cl/producto/19908-Lmina.Vidrio.Templado.para.Samsung.A3",
-          "img": "https://pcfactory.cl/foto/19908/1_100.jpg?t=1452719592"
+          "name": "Smartphone Pop 3 Quad Core 5\" Soft Silver Prepago Movistar",
+          "price": 74990,
+          "brand": "Alcatel",
+          "link": "https://pcfactory.cl/producto/21528-Smartphone.Pop.3.Quad.Core.5.Soft.Silver.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/21528/1_100.jpg?t=1453909445"
         },
         {
-          "name": "Capuchon RJ45 Sobrepuesto 50 Unidades Azul",
-          "price": 4990,
-          "brand": "Trimerx®",
-          "link": "https://pcfactory.cl/producto/22179-Capuchon.RJ45.Sobrepuesto.50.Unidades.Azul",
-          "img": "https://pcfactory.cl/foto/22179/1_100.jpg?t=1458670107"
+          "name": "Smartphone ECO Y3 II Quad Core 8GB 4,5\" Android 5.1 Negro",
+          "price": 74990,
+          "brand": "Huawei",
+          "link": "https://pcfactory.cl/producto/22014-Smartphone.ECO.Y3.II.Quad.Core.8GB.45.Android.5.1.Negro",
+          "img": "https://pcfactory.cl/foto/22014/1_100.jpg?t=1460645506"
         },
         {
-          "name": "Lámina vidrio templado Samsung J3",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/23102-Lmina.vidrio.templado.Samsung.J3",
-          "img": "https://pcfactory.cl/foto/23102/1_100.jpg?t=1468961549"
+          "name": "Smartphone K5 Quad Core 8GB 5\" Android 5.1 Negro Liberado",
+          "price": 74990,
+          "brand": "LG",
+          "link": "https://pcfactory.cl/producto/22016-Smartphone.K5.Quad.Core.8GB.5.Android.5.1.Negro.Liberado",
+          "img": "https://pcfactory.cl/foto/22016/1_100.jpg?t=1461854518"
         },
         {
-          "name": "Lámina vidrio templado iPhone 6S+",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21733-Lmina.vidrio.templado.iPhone.6S",
-          "img": "https://pcfactory.cl/foto/21733/1_100.jpg?t=1453996431"
+          "name": "Smartphone K5 Quad Core 8GB 5\" Android 5.1 Gold Liberado",
+          "price": 74990,
+          "brand": "LG",
+          "link": "https://pcfactory.cl/producto/23186-Smartphone.K5.Quad.Core.8GB.5.Android.5.1.Gold.Liberado",
+          "img": "https://pcfactory.cl/foto/23186/1_100.jpg?t=1469805639"
         },
         {
-          "name": "Lámina vidrio templado Moto G4",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/23103-Lmina.vidrio.templado.Moto.G4",
-          "img": "https://pcfactory.cl/foto/23103/1_100.jpg?t=1468961074"
+          "name": "Smartphone A6000 Quad Core 8GB 5\" HD 4G Android 4.4 Negro",
+          "price": 79990,
+          "brand": "Lenovo",
+          "link": "https://pcfactory.cl/producto/20211-Smartphone.A6000.Quad.Core.8GB.5.HD.4G.Android.4.4.Negro",
+          "img": "https://pcfactory.cl/foto/20211/1_100.jpg?t=1452715257"
         },
         {
-          "name": "Lámina vidrio templado iPhone 5/5S",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/21879-Lmina.vidrio.templado.iPhone.55S",
-          "img": "https://pcfactory.cl/foto/21879/1_100.jpg?t=1456328570"
+          "name": "Smartphone A6000 Quad Core 8GB 5\" HD 4G Android 4.4 Negro Prepago Movistar",
+          "price": 79990,
+          "brand": "Lenovo",
+          "link": "https://pcfactory.cl/producto/22780-Smartphone.A6000.Quad.Core.8GB.5.HD.4G.Android.4.4.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/22780/1_100.jpg?t=1466199215"
         },
         {
-          "name": "Lámina vidrio templado Moto G4 Plus",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/23104-Lmina.vidrio.templado.Moto.G4.Plus",
-          "img": "https://pcfactory.cl/foto/23104/1_100.jpg?t=1468961256"
+          "name": "Smartphone L5 II 4GB 4\" Android 4.1 Negro Prepago Claro",
+          "price": 82990,
+          "brand": "LG",
+          "link": "https://pcfactory.cl/producto/16122-Smartphone.L5.II.4GB.4.Android.4.1.Negro.Prepago.Claro",
+          "img": "https://pcfactory.cl/foto/16122/1_100.jpg?t=1453586548"
         },
         {
-          "name": "Cable HDMI / HDMI 1.8m versión 1.4",
-          "price": 4990,
-          "brand": "Spektra®",
-          "link": "https://pcfactory.cl/producto/1273-Cable.HDMI..HDMI.1.8m.versin.1.4",
-          "img": "https://pcfactory.cl/foto/1273/1_100.jpg?t=1452713915"
+          "name": "Smartphone V883 Quad Core 4,5\" TV Análoga Android 4.2 Negro Prepago Claro",
+          "price": 84990,
+          "brand": "ZTE",
+          "link": "https://pcfactory.cl/producto/16883-Smartphone.V883.Quad.Core.45.TV.Anloga.Android.4.2.Negro.Prepago.Claro.",
+          "img": "https://pcfactory.cl/foto/16883/1_100.jpg?t=1452790875"
         },
         {
-          "name": "Lámina vidrio templado LG K10",
-          "price": 4990,
-          "brand": "PCF OEM®",
-          "link": "https://pcfactory.cl/producto/23105-Lmina.vidrio.templado.LG.K10",
-          "img": "https://pcfactory.cl/foto/23105/1_100.jpg?t=1468958781"
+          "name": "Smartphone Galaxy Grand Prime VE Quad core 8GB 5\" Android 5.1 Negro Prepago Movistar",
+          "price": 84990,
+          "brand": "Samsung",
+          "link": "https://pcfactory.cl/producto/21643-Smartphone.Galaxy.Grand.Prime.VE.Quad.core.8GB.5.Android.5.1.Negro.Prepago.Movistar",
+          "img": "https://pcfactory.cl/foto/21643/1_100.jpg?t=1452800752"
         }
       ],
       "nav": {
-        "prev": "https://pcfactory.cl/?buscar=ID&pagina=5&pagina=4",
-        "current": "https://pcfactory.cl?buscar=ID&pagina=5",
-        "next": "https://pcfactory.cl/?buscar=ID&pagina=5&pagina=6"
+        "prev": "https://pcfactory.cl/?categoria=432&papa=645&pagina=1",
+        "current": "https://pcfactory.cl/?papa=645&categoria=432&pagina=2",
+        "next": "https://pcfactory.cl/?categoria=432&papa=645&pagina=3"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/?papa=645&categoria=432&pagina=2"
       }
     }
   }

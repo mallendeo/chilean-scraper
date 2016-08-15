@@ -1,6 +1,7 @@
 [
   {
     "url": "http://www.sodimac.cl/sodimac-cl/search/?&No=0&Ntt=&Nrpp=16",
+    "file": "sodimac/page-0.html",
     "payload": {
       "products": [
         {
@@ -9,13 +10,6 @@
           "brand": "Virutex",
           "link": "http://www.sodimac.cl/sodimac-cl/product/1000071/Mopa-plana-microactiva-15x45-cm./1000071",
           "img": "http://sodimac.scene7.com/is/image//SodimacCL/1000071?$lista175$ "
-        },
-        {
-          "name": "Box Americano Beat 2 pl dividida sin textil",
-          "price": 309990,
-          "brand": "Rosen",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2879808/Box-Americano-Beat-2-pl-dividida-sin-textil/2879808",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2879808?$lista175$ "
         },
         {
           "name": "Trabador de ventanas correderas",
@@ -32,88 +26,95 @@
           "img": "http://sodimac.scene7.com/is/image//SodimacCL/1002724?$lista175$ "
         },
         {
-          "name": "Alfombra Adana 120x180 cm",
-          "price": 89990,
-          "brand": "Zagora",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2888297/Alfombra-Adana-120x180-cm/2888297",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2888297?$lista175$ "
-        },
-        {
-          "name": "5'' Anillo zinc liso",
-          "price": 945,
-          "brand": "Coyahue",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/364274/5''-Anillo-zinc-liso/364274",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/364274?$lista175$ "
-        },
-        {
-          "name": "Cortina Mallorca roja",
-          "price": 14990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2949830/Cortina-Mallorca-roja/2949830",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2949830?$lista175$ "
-        },
-        {
-          "name": "Cinta de aluminio 3311",
-          "price": 11990,
-          "brand": "3M",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/103992X/Cinta-de-aluminio-3311/103992X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/103992X?$lista175$ "
-        },
-        {
-          "name": "Kit de Fitting Completo 15/16''",
+          "name": "Equipo estanco 1x36 con tubo eléctrico",
           "price": 14190,
-          "brand": "Fluidmaster",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1156586/Kit-de-Fitting-Completo-15-16''/1156586",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1156586?$lista175$ "
+          "brand": "Halux",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2921987/Equipo-estanco-1x36-con-tubo-electrico/2921987",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2921987?$lista175$ "
         },
         {
-          "name": "Cuadro abstracto malla 60x160 cm",
-          "price": 209990,
-          "brand": "Homy",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2924129/Cuadro-abstracto-malla-60x160-cm/2924129",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2924129?$lista175$ "
+          "name": "Plato Ducha Bau 200 mm",
+          "price": 54990,
+          "brand": "Grohe",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2075504/Plato-Ducha-Bau-200-mm/2075504",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2075504?$lista175$ "
         },
         {
-          "name": "Rack Bret 50\" 120X36X39 Blanco",
-          "price": 49990,
+          "name": "Electrodo 1 kg",
+          "price": 3490,
+          "brand": "M&H",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/343617/Electrodo-1-kg/343617",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/343617?$lista175$ "
+        },
+        {
+          "name": "Botín de seguridad aislante ED-106",
+          "price": 60190,
+          "brand": "Edelbrock",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/prod660026/Botin-de-seguridad-aislante-ED-106/1416227",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1416227?$lista175$ "
+        },
+        {
+          "name": "Silla Aluminio-Madera",
+          "price": 79990,
+          "brand": "Home & Garden",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2280272/Silla-Aluminio-Madera/2280272",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2280272?$lista175$ "
+        },
+        {
+          "name": "Clavo Corriente 1\" bolsa 1/2 kilo",
+          "price": 2023,
+          "brand": "Inchalam",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/296171/Clavo-Corriente-1-bolsa-1-2-kilo/296171",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/296171?$lista175$ "
+        },
+        {
+          "name": "20-22 mm Abrazadera Alta Presión 3/4\"",
+          "price": 1290,
+          "brand": "GVM",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2193817/20-22-mm-Abrazadera-Alta-Presion-3-4-/2193817",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2193817?$lista175$ "
+        },
+        {
+          "name": "Clavo Corriente 3/4\", bolsa 500grs.",
+          "price": 1590,
+          "brand": "Inchalam",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/296163/Clavo-Corriente-3-4-,-bolsa-500grs./296163",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/296163?$lista175$ "
+        },
+        {
+          "name": "Moldura Mara Guardapolvo 15X90X2.4",
+          "price": 4290,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2889412/Rack-Bret-50-120X36X39-Blanco/2889412",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2889412?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2705443/Moldura-Mara-Guardapolvo-15X90X2.4/2705443",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2705443?$lista175$ "
         },
         {
-          "name": "25 mm x 1/2\" Tee con derivación Termofusión y r...",
-          "price": 2490,
-          "brand": "Vinilit",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1203339/25-mm-x-1-2-Tee-con-derivacion-Termofusion-y-roscaHi/1203339",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1203339?$lista175$ "
+          "name": "Apliqué 1 luz hojas vidrio craquelado",
+          "price": 19990,
+          "brand": "Casa Bonita",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2873427/Aplique-1-luz-hojas-vidrio-craquelado/2873427",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2873427?$lista175$ "
         },
         {
-          "name": "Vara Eucaliptus Verde Y1245-5",
-          "price": 3990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2150085/Vara-Eucaliptus-Verde-Y1245-5/2150085",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2150085?$lista175$ "
+          "name": "3/4\" SO-HE Terminal Bronce",
+          "price": 830,
+          "brand": "Humboldt",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/538450/3-4-SO-HE-Terminal-Bronce/538450",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/538450?$lista175$ "
         },
         {
-          "name": "Hidrolavadora Gasolina 172 Bar",
-          "price": 399990,
-          "brand": "Toyama",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2740664/Hidrolavadora-Gasolina-172-Bar/2740664",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2740664?$lista175$ "
+          "name": "Led clásica 16 W / 100 W luz cálida",
+          "price": 10990,
+          "brand": "General Electric",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2910993/Led-clasica-16-W-100-W-luz-calida/2910993",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2910993?$lista175$ "
         },
         {
-          "name": "Estante melamina 30x60 cedro",
-          "price": 67990,
-          "brand": "Scandinova",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1068989/Estante-melamina-30x60-cedro/1068989",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1068989?$lista175$ "
-        },
-        {
-          "name": "Remachadora 3/16'' neumática",
-          "price": 67190,
-          "brand": "Ubermann",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1002732/Remachadora-3-16''-neumatica/1002732",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1002732?$lista175$ "
+          "name": "Broca Paleta 19.5 mm m 6",
+          "price": 4090,
+          "brand": "Milwaukee",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2736756/Broca-Paleta-19.5-mm-m-6/2736756",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2736756?$lista175$ "
         }
       ],
       "nav": {
@@ -121,102 +122,66 @@
         "current": "1",
         "next": "2"
       }
+    },
+    "res": {
+      "request": {
+        "path": "/sodimac-cl/search/?&No=0&Ntt=&Nrpp=16"
+      }
     }
   },
   {
     "url": "http://www.sodimac.cl/sodimac-cl/search/?&No=16&Ntt=&Nrpp=16",
+    "file": "sodimac/page-1.html",
     "payload": {
       "products": [
         {
-          "name": "Set de 2 organizadores esponja",
-          "price": 2190,
+          "name": "Semilla para hortaliza Ají cacho cabra 1 gramo",
+          "price": 1890,
+          "brand": "Anasac",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1378090/Semilla-para-hortaliza-Aji-cacho-cabra-1-gramo/1378090",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1378090?$lista175$ "
+        },
+        {
+          "name": "Tornillo Yesocartón punta broca 6x1 5/8 Fosfati...",
+          "price": 1890,
+          "brand": "Mamut",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/476773/Tornillo-Yesocarton-punta-broca-6x1-5-8-Fosfatizado/476773",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/476773?$lista175$ "
+        },
+        {
+          "name": "Autoperforante Framer 7 x 7/16\" 500 unidades",
+          "price": 6490,
+          "brand": "Mamut",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/826928/Autoperforante-Framer-7-x-7-16-500-unidades/826928",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/826928?$lista175$ "
+        },
+        {
+          "name": "Set 10 Colgadores Antideslizante beige",
+          "price": 4990,
+          "brand": "Genérico",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1887890/Set-10-Colgadores-Antideslizante-beige/1887890",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1887890?$lista175$ "
+        },
+        {
+          "name": "Juego llaves hexagonal pulgadas 12 piezas",
+          "price": 18190,
+          "brand": "Stanley",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/115215/Juego-llaves-hexagonal-pulgadas-12-piezas/115215",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/115215?$lista175$ "
+        },
+        {
+          "name": "Lámpara de escritorio apple negro led 5W",
+          "price": 16990,
+          "brand": "Homy",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2873621/Lampara-de-escritorio-apple-negro-led-5W/2873621",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2873621?$lista175$ "
+        },
+        {
+          "name": "Lámpara de colgar industrial Jose 1 luz",
+          "price": 149990,
           "brand": "Home Collection",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/150428/Set-de-2-organizadores-esponja/150428",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/150428?$lista175$ "
-        },
-        {
-          "name": "Lámpara colgante Sauce 1 luz",
-          "price": 16190,
-          "brand": "Home Collection",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2886316/Lampara-colgante-Sauce-1-luz/2886316",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2886316?$lista175$ "
-        },
-        {
-          "name": "Sobadora manual de sobremesa",
-          "price": 21990,
-          "brand": "Malta",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2145014/Sobadora-manual-de-sobremesa/2145014",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2145014?$lista175$ "
-        },
-        {
-          "name": "Stickers 32,5x50 cm Ramas 1550",
-          "price": 5990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2824574/Stickers-32,5x50-cm-Ramas-1550/2824574",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2824574?$lista175$ "
-        },
-        {
-          "name": "Roldana sencilla fija cromada 1 1/4\"",
-          "price": 6990,
-          "brand": "Mustang",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/176443/Roldana-sencilla-fija-cromada-1-1-4-/176443",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/176443?$lista175$ "
-        },
-        {
-          "name": "Correa de Arrastre 4 mt 1500 Lb",
-          "price": 8390,
-          "brand": "Autostyle",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1892932/Correa-de-Arrastre-4-mt-1500-Lb/1892932",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1892932?$lista175$ "
-        },
-        {
-          "name": "Dúplex 1 plaza accesorios Castelo sin textil",
-          "price": 369990,
-          "brand": "Rosen",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2879840/Duplex-1-plaza-accesorios-Castelo-sin-textil/2879840",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2879840?$lista175$ "
-        },
-        {
-          "name": "Buffet Aligo 71x40x88 cm 4 colores",
-          "price": 44990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2883562/Buffet-Aligo-71x40x88-cm-4-colores/2883562",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2883562?$lista175$ "
-        },
-        {
-          "name": "Alfombra redonda",
-          "price": 1490,
-          "brand": "Home Collection",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2002728/Alfombra-redonda/2002728",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2002728?$lista175$ "
-        },
-        {
-          "name": "Set 6 Cucharas Helado Albany",
-          "price": 3490,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2150298/Set-6-Cucharas-Helado-Albany/2150298",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2150298?$lista175$ "
-        },
-        {
-          "name": "Vela cilindro 6x10 cm gardenia",
-          "price": 3990,
-          "brand": "Organic",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2910438/Vela-cilindro-6x10-cm-gardenia/2910438",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2910438?$lista175$ "
-        },
-        {
-          "name": "Línea Contemporáneo cromo Toallero barra 61",
-          "price": 7990,
-          "brand": "Donner",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/874124/Linea-Contemporaneo-cromo-Toallero-barra-61/874124",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/874124?$lista175$ "
-        },
-        {
-          "name": "Balde Madera Redondo 17 x 25 cm",
-          "price": 8990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2504863/Balde-Madera-Redondo-17-x-25-cm/2504863",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2504863?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/289775X/Lampara-de-colgar-industrial-Jose-1-luz/289775X",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/289775X?$lista175$ "
         },
         {
           "name": "Plafón Circular 1173-72 1 luz",
@@ -226,18 +191,60 @@
           "img": "http://sodimac.scene7.com/is/image//SodimacCL/100099?$lista175$ "
         },
         {
-          "name": "Frasco mini 39 cc Mielera",
-          "price": 990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2194880/Frasco-mini-39-cc-Mielera/2194880",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2194880?$lista175$ "
+          "name": "Cámara Domo 600 TVL CAM-6312",
+          "price": 69690,
+          "brand": "Q-See",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2192020/Camara-Domo-600-TVL-CAM-6312/2192020",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2192020?$lista175$ "
         },
         {
-          "name": "Mesa de comedor Moore vidrio 180x100x76 cm",
-          "price": 169990,
+          "name": "Perno Hexagonal G2 1/4X11/2 PAV 4 unidades",
+          "price": 1090,
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/572349/Perno-Hexagonal-G2-1-4X11-2-PAV-4-unidades/572349",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/572349?$lista175$ "
+        },
+        {
+          "name": "Tapagoteras Elastosello 300 - 4.5 kgs",
+          "price": 31490,
+          "brand": "Henkel",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/43552X/Tapagoteras-Elastosello-300-4.5-kgs/43552X",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/43552X?$lista175$ "
+        },
+        {
+          "name": "Remachadora 3/16'' neumática",
+          "price": 67190,
+          "brand": "Ubermann",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1002732/Remachadora-3-16''-neumatica/1002732",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1002732?$lista175$ "
+        },
+        {
+          "name": "Spray Specialty Pizarrones Negro 312 gr",
+          "price": 5190,
+          "brand": "Rust-Oleum",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2195941/Spray-Specialty-Pizarrones-Negro-312-gr/2195941",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2195941?$lista175$ "
+        },
+        {
+          "name": "Serrucho Profesional Jec Cut 20\"",
+          "price": 14690,
+          "brand": "Fatmax-Stanley",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1598376/Serrucho-Profesional-Jec-Cut-20-/1598376",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1598376?$lista175$ "
+        },
+        {
+          "name": "Silla R-350 brazo regulable Tropea azul",
+          "price": 59990,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/297200X/Mesa-de-comedor-Moore-vidrio-180x100x76-cm/297200X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/297200X?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1406752/Silla-R-350-brazo-regulable-Tropea-azul/1406752",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1406752?$lista175$ "
+        },
+        {
+          "name": "Lámpara de colgar Cubo Satín 1 luz",
+          "price": 10990,
+          "brand": "Home Collection",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2716178/Lampara-de-colgar-Cubo-Satin-1-luz/2716178",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2716178?$lista175$ "
         }
       ],
       "nav": {
@@ -245,123 +252,129 @@
         "current": "2",
         "next": "3"
       }
+    },
+    "res": {
+      "request": {
+        "path": "/sodimac-cl/search/?&No=16&Ntt=&Nrpp=16"
+      }
     }
   },
   {
     "url": "http://www.sodimac.cl/sodimac-cl/search/?&No=32&Ntt=&Nrpp=16",
+    "file": "sodimac/page-2.html",
     "payload": {
       "products": [
         {
-          "name": "3.5\" 45° Curva zinc liso",
-          "price": 6690,
-          "brand": "Coyahue",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/898732/3.5-45°-Curva-zinc-liso/898732",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/898732?$lista175$ "
+          "name": "Cocina a gas 5 quemadores Brandemburgo G5",
+          "price": 808490,
+          "brand": "Albin Trotter",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/115298X/Cocina-a-gas-5-quemadores-Brandemburgo-G5/115298X",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/115298X?$lista175$ "
         },
         {
-          "name": "Individual Antideslizante 30x45 cm",
-          "price": 990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1601652/Individual-Antideslizante-30x45-cm/1601652",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1601652?$lista175$ "
+          "name": "Cerradura sobreponer 2001 gris",
+          "price": 22190,
+          "brand": "Scanavini",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/737321/Cerradura-sobreponer-2001-gris/737321",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/737321?$lista175$ "
         },
         {
-          "name": "Organizador de cajones 32 conpartimientos",
-          "price": 6990,
-          "brand": "Magla",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/534919/Organizador-de-cajones-32-conpartimientos/534919",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/534919?$lista175$ "
+          "name": "Tina Hidromasaje 150x150x71x110x71 cm 7 jets Cr...",
+          "price": 1235490,
+          "brand": "Norglas",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1378163/Tina-Hidromasaje-150x150x71x110x71-cm-7-jets-Creta-Full-Derecha/1378163",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1378163?$lista175$ "
         },
         {
-          "name": "Estanque Aquatank Titán 20000 lt",
-          "price": 3899990,
-          "brand": "Infraplast",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2778440/Estanque-Aquatank-Titan-20000-lt/2778440",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2778440?$lista175$ "
+          "name": "Set 3 Paños Para Estilar Vasos",
+          "price": 1890,
+          "brand": "House Solutions",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1538950/Set-3-Panos-Para-Estilar-Vasos/1538950",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1538950?$lista175$ "
         },
         {
-          "name": "Camarote Leo 209x165x132 cm blanco",
-          "price": 299990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2889420/Camarote-Leo-209x165x132-cm-blanco/2889420",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2889420?$lista175$ "
+          "name": "Piso de baño Foam Rayas café 40x60 cm",
+          "price": 3990,
+          "brand": "Casa Bonita",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2882825/Piso-de-bano-Foam-Rayas-cafe-40x60-cm/2882825",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2882825?$lista175$ "
         },
         {
-          "name": "Silla R-235 Brazo regulable Tiziano burdeo",
-          "price": 54990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1408208/Silla-R-235-Brazo-regulable-Tiziano-burdeo/1408208",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1408208?$lista175$ "
-        },
-        {
-          "name": "Cortina enrollable blanca 150x190 cm",
-          "price": 28990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2879964/Cortina-enrollable-blanca-150x190-cm/2879964",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2879964?$lista175$ "
-        },
-        {
-          "name": "Vela candelabro",
-          "price": 1690,
-          "brand": "Floracenter",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1924508/Vela-candelabro/1924508",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1924508?$lista175$ "
-        },
-        {
-          "name": "Cinta de embalaje Scotch",
-          "price": 2790,
-          "brand": "3M",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1039873/Cinta-de-embalaje-Scotch/1039873",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1039873?$lista175$ "
-        },
-        {
-          "name": "Asiento WC Línea Victoria",
-          "price": 40890,
-          "brand": "Roca",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/195251X/Asiento-WC-Linea-Victoria/195251X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/195251X?$lista175$ "
-        },
-        {
-          "name": "Alfombra Original cuadros",
-          "price": 9990,
-          "brand": "Home Collection",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2764865/Alfombra-Original-cuadros/2764881",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2764881?$lista175$ "
-        },
-        {
-          "name": "Mampara pino oregón con vidrio 50x200 cm",
-          "price": 72990,
-          "brand": "Puertas Wood'S",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2641372/Mampara-pino-oregon-con-vidrio-50x200-cm/2641372",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2641372?$lista175$ "
-        },
-        {
-          "name": "Tabla Porta Cuchillos",
-          "price": 16990,
-          "brand": "Home Collection",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/281790X/Tabla-Porta-Cuchillos/281790X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/281790X?$lista175$ "
-        },
-        {
-          "name": "Pizarra lista de tareas 15x21 cm (COLORES)",
+          "name": "Tuerca Hexagonal G2 1/2\" 12 Zincada brillante 2...",
           "price": 1190,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2112655/Pizarra-lista-de-tareas-15x21-cm-(COLORES)/2112655",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2112655?$lista175$ "
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/862509/Tuerca-Hexagonal-G2-1-2-12-Zincada-brillante-2-unidades/862509",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/862509?$lista175$ "
         },
         {
-          "name": "Espuma Niveladora 3 en uno 10 m2",
-          "price": 8990,
+          "name": "Piedra Pizarra 30 x 60 cm Negra 0.9 m2",
+          "price": 11691,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/760129/Espuma-Niveladora-3-en-uno-10-m2/760129",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/760129?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2068524/Piedra-Pizarra-30-x-60-cm-Negra-0.9-m2/2068524",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2068524?$lista175$ "
         },
         {
-          "name": "Tina Hidromasaje 184 x 123 x 52 cm Bianca Derec...",
-          "price": 819000,
-          "brand": "Jacuzzi",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1373129/Tina-Hidromasaje-184-x-123-x-52-cm-Bianca-Derecha-8-Jets/1373129",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1373129?$lista175$ "
+          "name": "Cadena para nieve auto aro 13-14-15",
+          "price": 45190,
+          "brand": "Gorila",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2782596/Cadena-para-nieve-auto-aro-13-14-15/2782596",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2782596?$lista175$ "
+        },
+        {
+          "name": "Tuerca cocina cuadrada 1/8\" 5 unidades",
+          "price": 1090,
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/826952/Tuerca-cocina-cuadrada-1-8-5-unidades/826952",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/826952?$lista175$ "
+        },
+        {
+          "name": "Malla Raschel 5mt x 2.10m negro",
+          "price": 5690,
+          "brand": "Polytex",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2847582/Malla-Raschel-5mt-x-2.10m-negro/2847582",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2847582?$lista175$ "
+        },
+        {
+          "name": "Refrigerador RGA1130ZLCX0",
+          "price": 289990,
+          "brand": "General Electric",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/3009378/Refrigerador-RGA1130ZLCX0/3009378",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/3009378?$lista175$ "
+        },
+        {
+          "name": "Sierra Caladora 720 Watts",
+          "price": 219990,
+          "brand": "Makita",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/981362/Sierra-Caladora-720-Watts/981362",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/981362?$lista175$ "
+        },
+        {
+          "name": "Sauna Madera Nativa 123 x 123 x 204 cm Lathi",
+          "price": 1839990,
+          "brand": "Norglas",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1757431/Sauna-Madera-Nativa-123-x-123-x-204-cm-Lathi/1757431",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1757431?$lista175$ "
+        },
+        {
+          "name": "1/2'' HI-HI Flexible para Calefon 30 cm",
+          "price": 6090,
+          "brand": "Tress",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/132585X/1-2''-HI-HI-Flexible-para-Calefon-30-cm/132585X",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/132585X?$lista175$ "
+        },
+        {
+          "name": "Puerta vidriada pino Andaluz cerezo 70x200 cm",
+          "price": 88990,
+          "brand": "Promasa",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1493663/Puerta-vidriada-pino-Andaluz-cerezo-70x200-cm/1493663",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1493663?$lista175$ "
+        },
+        {
+          "name": "Mueble base para lavaplato 100X47X82",
+          "price": 49990,
+          "brand": "Tvilum",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2299046/Mueble-base-para-lavaplato-100X47X82/2299046",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2299046?$lista175$ "
         }
       ],
       "nav": {
@@ -369,123 +382,129 @@
         "current": "3",
         "next": "4"
       }
+    },
+    "res": {
+      "request": {
+        "path": "/sodimac-cl/search/?&No=32&Ntt=&Nrpp=16"
+      }
     }
   },
   {
     "url": "http://www.sodimac.cl/sodimac-cl/search/?&No=48&Ntt=&Nrpp=16",
+    "file": "sodimac/page-3.html",
     "payload": {
       "products": [
         {
-          "name": "Musgo para orquídeas 200 g",
-          "price": 4990,
-          "brand": "Anasac",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2905094/Musgo-para-orquideas-200-g/2905094",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2905094?$lista175$ "
+          "name": "Brocha Master 5/8 x 1\"",
+          "price": 2590,
+          "brand": "Hela",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1672797/Brocha-Master-5-8-x-1-/1672797",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1672797?$lista175$ "
         },
         {
-          "name": "Rack 42\" Stanford 90x136x36.5 cm",
-          "price": 69990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/3063607/Rack-42-Stanford-90x136x36.5-cm/3063607",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/3063607?$lista175$ "
+          "name": "T.Turbo 3.5X30+Tapa Peral 25U",
+          "price": 1790,
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1607820/T.Turbo-3.5X30+Tapa-Peral-25U/1607820",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1607820?$lista175$ "
         },
         {
-          "name": "Tulipán x3 bulbos 0.30 m ct13",
-          "price": 2990,
-          "brand": "Paz y Flora",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/840882/Tulipan-x3-bulbos-0.30-m-ct13/840882",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/840882?$lista175$ "
+          "name": "Medidor agua 3/4\" TM",
+          "price": 39190,
+          "brand": "Actaris",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1039741/Medidor-agua-3-4-TM/1039741",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1039741?$lista175$ "
         },
         {
-          "name": "Camarote 1 plaza Desmontable azul",
-          "price": 109990,
-          "brand": "Metac",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/367486/Camarote-1-plaza-Desmontable-azul/367486",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/367486?$lista175$ "
+          "name": "Módulo 1 puerta 35 x 31 cm",
+          "price": 35990,
+          "brand": "Scandinova / Canela",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/995797/Modulo-1-puerta-35-x-31-cm/995797",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/995797?$lista175$ "
         },
         {
-          "name": "Barra Cuadrada de Pañera Cromo",
+          "name": "Estufa a parafina Sunnymet EP6500",
+          "price": 64990,
+          "brand": "Sindelen",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1266241/Estufa-a-parafina-Sunnymet-EP6500/1266241",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1266241?$lista175$ "
+        },
+        {
+          "name": "Monomando Ducha Parma",
+          "price": 29990,
+          "brand": "Sensi Dacqua Design",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2299593/Monomando-Ducha-Parma/2299593",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2299593?$lista175$ "
+        },
+        {
+          "name": "Broca madera 12mm holz - 1un",
           "price": 5990,
-          "brand": "Fanaloza",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/86529X/Barra-Cuadrada-de-Panera-Cromo/86529X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/86529X?$lista175$ "
+          "brand": "Alpen",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/126292/Broca-madera-12mm-holz-1un/126292",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/126292?$lista175$ "
         },
         {
-          "name": "Refrigerador retro FAB30 rojo",
-          "price": 1499990,
-          "brand": "Smeg",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2924218/Refrigerador-retro-FAB30-rojo/2924218",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2924218?$lista175$ "
+          "name": "Remache Pop 3,2 x 12 100 unidades",
+          "price": 2090,
+          "brand": "Mamut",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/136042/Remache-Pop-3,2-x-12-100-unidades/136042",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/136042?$lista175$ "
         },
         {
-          "name": "Mesa de centro Greca 130x70x42 cm",
-          "price": 139990,
+          "name": "Botín de seguridad nobuck ED-105",
+          "price": 61190,
+          "brand": "Edelbrock",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1125990/Botin-de-seguridad-nobuck-ED-105/1126059",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1126059?$lista175$ "
+        },
+        {
+          "name": "Sitial Isabella Tucuman",
+          "price": 99990,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2972034/Mesa-de-centro-Greca-130x70x42-cm/2972034",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2972034?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2952904/Sitial-Isabella-Tucuman/2952904",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2952904?$lista175$ "
         },
         {
-          "name": "Aromatizador Cítrico Deo Smile",
-          "price": 1490,
-          "brand": "Glade",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/990973/Aromatizador-Citrico-Deo-Smile/990973",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/990973?$lista175$ "
+          "name": "Alcuza con Tapa Vidrio 177 ml",
+          "price": 2290,
+          "brand": "Libbey",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2110431/Alcuza-con-Tapa-Vidrio-177-ml/2110431",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2110431?$lista175$ "
         },
         {
-          "name": "Set 2 Paños Toalla Chef",
-          "price": 2890,
-          "brand": "Casa Bonita",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/154392X/Set-2-Panos-Toalla-Chef/154392X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/154392X?$lista175$ "
+          "name": "Set de 2 toallas Italia damasco",
+          "price": 9990,
+          "brand": "Mashini",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/306526X/Set-de-2-toallas-Italia-damasco/306526X",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/306526X?$lista175$ "
         },
         {
-          "name": "Posacaliente plegable verde 15 cm",
-          "price": 1990,
-          "brand": "Homy",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2924412/Posacaliente-plegable-verde-15-cm/2924412",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2924412?$lista175$ "
+          "name": "Pino ellwoodii 0.5 m ct29",
+          "price": 14190,
+          "brand": "Las Bandurrias",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/346292/Pino-ellwoodii-0.5-m-ct29/346292",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/346292?$lista175$ "
         },
         {
-          "name": "Papel San Priamo 3506-40",
-          "price": 18990,
-          "brand": "Dap Ducasse",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2732599/Papel-San-Priamo-3506-40/2732599",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2732599?$lista175$ "
+          "name": "Torn Yeso Cart Pfz 6X1\"  50U",
+          "price": 1790,
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1608096/Torn-Yeso-Cart-Pfz-6X1-50U/1608096",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1608096?$lista175$ "
         },
         {
-          "name": "Cortina Mallorca verde",
-          "price": 14990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2949849/Cortina-Mallorca-verde/2949849",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2949849?$lista175$ "
+          "name": "Box Spring Ortopedic King",
+          "price": 279990,
+          "brand": "CIC",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2672510/Box-Spring-Ortopedic-King/2672510",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2672510?$lista175$ "
         },
         {
-          "name": "Cortina enrollable poliéster 75x190 cm azul",
-          "price": 27990,
-          "brand": "Viewtex",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2145340/Cortina-enrollable-poliester-75x190-cm-azul/2145340",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2145340?$lista175$ "
-        },
-        {
-          "name": "Disco Lija 41/2 gr  36",
-          "price": 4990,
-          "brand": "Sia",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/679844/Disco-Lija-41-2-gr-36/679844",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/679844?$lista175$ "
-        },
-        {
-          "name": "Cuadro enmarcado 40x50 cm Chardonnay",
-          "price": 12990,
-          "brand": "Homy",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2876817/Cuadro-enmarcado-40x50-cm-Chardonnay/2876817",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2876817?$lista175$ "
-        },
-        {
-          "name": "Set de manguera raucolor",
-          "price": 8790,
-          "brand": "Rehau",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/849871/Set-de-manguera-raucolor/849871",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/849871?$lista175$ "
+          "name": "Kit Portón Corredera 600kgs.",
+          "price": 74990,
+          "brand": "Veloti",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1002104/Kit-Porton-Corredera-600kgs./1002104",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1002104?$lista175$ "
         }
       ],
       "nav": {
@@ -493,129 +512,140 @@
         "current": "4",
         "next": "5"
       }
+    },
+    "res": {
+      "request": {
+        "path": "/sodimac-cl/search/?&No=48&Ntt=&Nrpp=16"
+      }
     }
   },
   {
     "url": "http://www.sodimac.cl/sodimac-cl/search/?&No=64&Ntt=&Nrpp=16",
+    "file": "sodimac/page-4.html",
     "payload": {
       "products": [
         {
-          "name": "Refrigerador TMF RT29K5030S8/ZS",
-          "price": 379990,
-          "brand": "Samsung",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/3033910/Refrigerador-TMF-RT29K5030S8-ZS/3033910",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/3033910?$lista175$ "
+          "name": "Enchufe simple 10A gris moro Matix",
+          "price": 1780,
+          "brand": "Bticino",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/45489/Enchufe-simple-10A-gris-moro-Matix/45489",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/45489?$lista175$ "
         },
         {
-          "name": "Lavadora superior LMA80SYI0",
-          "price": 189990,
-          "brand": "Mabe",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/3129136/Lavadora-superior-LMA80SYI0/3129136",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/3129136?$lista175$ "
+          "name": "Flexible metálico para gas HI-HI 3/8 Hilo izqui...",
+          "price": 5190,
+          "brand": "Comisa",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/281654/Flexible-metalico-para-gas-HI-HI-3-8-Hilo-izquierdo-x-1-2/281654",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/281654?$lista175$ "
         },
         {
-          "name": "Dúplex 1 plaza accesorios Tabor sin textil",
-          "price": 329990,
-          "brand": "Rosen",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2879816/Duplex-1-plaza-accesorios-Tabor-sin-textil/2879816",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2879816?$lista175$ "
+          "name": "Maleta Spinner Glide 84 lt gris",
+          "price": 69990,
+          "brand": "Samsonite",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2865149/Maleta-Spinner-Glide-84-lt-gris/2865149",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2865149?$lista175$ "
         },
         {
-          "name": "Semillas Acelga  verde 5 gramos",
-          "price": 1990,
-          "brand": "Vilmorín",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/185574/Semillas-Acelga-verde-5-gramos/185574",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/185574?$lista175$ "
+          "name": "Ventana corredera PVC Básico Americano 140x120 ...",
+          "price": 57290,
+          "brand": "Wintec",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2212943/Ventana-corredera-PVC-Basico-Americano-140x120-cm-Blanco/2212943",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2212943?$lista175$ "
         },
         {
-          "name": "Foco Empotrable 2XE27 26 Watts Blanco",
-          "price": 5790,
-          "brand": "Byp",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2223813/Foco-Empotrable-2XE27-26-Watts-Blanco/2223813",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2223813?$lista175$ "
-        },
-        {
-          "name": "Organizador Linus Binz 10 x 28 x 8 cm",
-          "price": 5990,
-          "brand": "Interdesign",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2835428/Organizador-Linus-Binz-10-x-28-x-8-cm/2835428",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2835428?$lista175$ "
-        },
-        {
-          "name": "Porta Retrato Cuero Grande",
-          "price": 3490,
+          "name": "Cuna madera 3 funciones",
+          "price": 129990,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/249177X/Porta-Retrato-Cuero-Grande/249177X",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/249177X?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2970449/Cuna-madera-3-funciones/2970449",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2970449?$lista175$ "
         },
         {
-          "name": "Rueda de cama con base y freno café",
-          "price": 6090,
-          "brand": "Rey",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/47406/Rueda-de-cama-con-base-y-freno-cafe/47406",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/47406?$lista175$ "
+          "name": "Tubo Fluorescente Circular T5 20 Watts",
+          "price": 2190,
+          "brand": "Westinghouse",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1071025/Tubo-Fluorescente-Circular-T5-20-Watts/1071025",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1071025?$lista175$ "
         },
         {
-          "name": "Sofá Cordova Calafate",
-          "price": 349990,
-          "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2954540/Sofa-Cordova-Calafate/2954540",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2954540?$lista175$ "
-        },
-        {
-          "name": "Monomando Lavamanos Oz",
-          "price": 34990,
+          "name": "1\" SO-HE Terminal Bronce",
+          "price": 1760,
           "brand": "Stretto",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1463543/Monomando-Lavamanos-Oz/1463543",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1463543?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/538477/1-SO-HE-Terminal-Bronce/538477",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/538477?$lista175$ "
         },
         {
-          "name": "Dúplex 1 plaza accesorios Verona + textil",
-          "price": 379990,
-          "brand": "Rosen",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2879859/Duplex-1-plaza-accesorios-Verona-+-textil/2879859",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2879859?$lista175$ "
+          "name": "Angulo magnético multipropósito 85 x 85 cm",
+          "price": 14690,
+          "brand": "Bauker",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1000640/Angulo-magnetico-multiproposito-85-x-85-cm/1000640",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1000640?$lista175$ "
         },
         {
-          "name": "Comedor rectangular",
-          "price": 89990,
+          "name": "Pack linternas",
+          "price": 9990,
+          "brand": "Duracell",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2911116/Pack-linternas/2911116",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2911116?$lista175$ "
+        },
+        {
+          "name": "Insecticida Diazinon 100 gr",
+          "price": 3990,
+          "brand": "Anasac",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/90085/Insecticida-Diazinon-100-gr/90085",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/90085?$lista175$ "
+        },
+        {
+          "name": "Marco Foto Pie 10 x 15 Blanco",
+          "price": 1990,
+          "brand": "Home Collection",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2729067/Marco-Foto-Pie-10-x-15-Blanco/2729067",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2729067?$lista175$ "
+        },
+        {
+          "name": "Porcelanato 15 x 60 cm Madera Crema 0.99 m2",
+          "price": 12860,
           "brand": "Genérico",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2279177/Comedor-rectangular/2279177",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2279177?$lista175$ "
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1186396/Porcelanato-15-x-60-cm-Madera-Crema-0.99-m2/1186396",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1186396?$lista175$ "
         },
         {
-          "name": "Soldadura 50% estaño en barras",
-          "price": 4290,
-          "brand": "Humboldt",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/1493167/Soldadura-50-estano-en-barras/1493167",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1493167?$lista175$ "
+          "name": "Difusor ambiente 120 vainilla",
+          "price": 5690,
+          "brand": "Organic",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2912147/Difusor-ambiente-120-vainilla/2912147",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2912147?$lista175$ "
         },
         {
-          "name": "Microonda 20 litros digital Blanco",
-          "price": 44990,
-          "brand": "Whirlpool",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2697661/Microonda-20-litros-digital-Blanco/2697661",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2697661?$lista175$ "
+          "name": "0.50x1000x3000mm Plancha galvanizada lisa",
+          "price": 12990,
+          "brand": "Genérico",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/245771/0.50x1000x3000mm-Plancha-galvanizada-lisa/245771",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/245771?$lista175$ "
         },
         {
-          "name": "Soporte LCD TILT14 37\"",
-          "price": 24990,
-          "brand": "Daiku",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/2719002/Soporte-LCD-TILT14-37-/2719002",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2719002?$lista175$ "
+          "name": "Organizador 4 niveles de tela 30x30x84 cm Europa",
+          "price": 3990,
+          "brand": "Home Collection",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/2871343/Organizador-4-niveles-de-tela-30x30x84-cm-Europa/2871343",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/2871343?$lista175$ "
         },
         {
-          "name": "29x14x7.1 cm Ladrillo Liviano",
-          "price": 450,
-          "brand": "Ladrillos Cóndor",
-          "link": "http://www.sodimac.cl/sodimac-cl/product/342769/29x14x7.1-cm-Ladrillo-Liviano/342769",
-          "img": "http://sodimac.scene7.com/is/image//SodimacCL/342769?$lista175$ "
+          "name": "Tornillo yesocartón PBZ 6 x 1 1/4\" 3500 unidades",
+          "price": 19190,
+          "brand": "Fixser",
+          "link": "http://www.sodimac.cl/sodimac-cl/product/1348116/Tornillo-yesocarton-PBZ-6-x-1-1-4-3500-unidades/1348116",
+          "img": "http://sodimac.scene7.com/is/image//SodimacCL/1348116?$lista175$ "
         }
       ],
       "nav": {
         "prev": "4",
         "current": "5",
         "next": "6"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/sodimac-cl/search/?&No=64&Ntt=&Nrpp=16"
       }
     }
   }

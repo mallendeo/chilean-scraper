@@ -4,10 +4,9 @@ import { matchProducts } from './helpers'
 import { parseProducts, getProducts } from '../src/lib/scrapers/ripley'
 
 import data from './data/ripley.json'
-import pages from './pages/ripley.json'
 
 test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(pages, data, parseProducts)))
+  t.true(matchProducts(data, parseProducts)))
 
 test('[live] Get the first page and return a list of 24 products', async t => {
   try {

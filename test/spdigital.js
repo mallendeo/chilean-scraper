@@ -8,10 +8,9 @@ import {
 } from '../src/lib/scrapers/spdigital'
 
 import data from './data/spdigital.json'
-import pages from './pages/spdigital.json'
 
 test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(pages, data, parseProducts)))
+  t.true(matchProducts(data, parseProducts)))
 
 test('[live] Get all the categories from the homepage', async t => {
   try {

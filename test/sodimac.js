@@ -4,10 +4,9 @@ import { matchProducts } from './helpers'
 import { parseProducts, getProducts } from '../src/lib/scrapers/sodimac'
 
 import data from './data/sodimac.json'
-import pages from './pages/sodimac.json'
 
 test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(pages, data, parseProducts)))
+  t.true(matchProducts(data, parseProducts)))
 
 test('[live] Get the first page and return a list of 16 products', async t => {
   try {

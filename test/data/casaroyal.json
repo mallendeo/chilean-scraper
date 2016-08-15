@@ -1,6 +1,7 @@
 [
   {
     "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=1",
+    "file": "casaroyal/page-0.html",
     "payload": {
       "products": [
         {
@@ -26,90 +27,6 @@
           "price": 10490,
           "link": "http://www.casaroyal.cl/producto/cable-xlr-m-xlr-h-6m-pac122-velleman/",
           "img": "http://www.casaroyal.cl/wp-content/uploads/2015/07/209242-a-574x460.jpg"
-        },
-        {
-          "name": "Cable armado micrófono 7,5 mts",
-          "price": 9990,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts-2/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209385_a-574x460.jpg"
-        },
-        {
-          "name": "Cable armado micrófono 1,8 mts",
-          "price": 3990,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts-2/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209361_a-574x460.jpg"
-        },
-        {
-          "name": "Cable para instrumento 5 mts",
-          "price": 5990,
-          "link": "http://www.casaroyal.cl/producto/cable-para-instrumento-5-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209168_a-574x460.jpg"
-        },
-        {
-          "name": "Cable armado micrófono 4,5 mts",
-          "price": 5990,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-45-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209363_a-574x460.jpg"
-        },
-        {
-          "name": "Cable armado micrófono 5 mts",
-          "price": 5990,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-5-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209180_a-574x460.jpg"
-        },
-        {
-          "name": "Cable micrófono 2c",
-          "price": 590,
-          "link": "http://www.casaroyal.cl/producto/cable-microfono-2c/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223508_a-574x460.jpg"
-        },
-        {
-          "name": "Cable armado micrófono 1,8 mts",
-          "price": 4790,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209360_a-574x460.jpg"
-        },
-        {
-          "name": "Cable parlante armado 20 mts",
-          "price": 16990,
-          "link": "http://www.casaroyal.cl/producto/cable-parlante-armado-20-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209252_a-574x460.jpg"
-        }
-      ],
-      "nav": {
-        "prev": null,
-        "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=1",
-        "next": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2"
-      }
-    }
-  },
-  {
-    "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2",
-    "payload": {
-      "products": [
-        {
-          "name": "Cable armado micrófono 1,8 mts",
-          "price": 4790,
-          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209360_a-574x460.jpg"
-        },
-        {
-          "name": "Cable parlante armado 20 mts",
-          "price": 16990,
-          "link": "http://www.casaroyal.cl/producto/cable-parlante-armado-20-mts/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209252_a-574x460.jpg"
-        },
-        {
-          "name": "Pedestal para micrófono",
-          "price": 16990,
-          "link": "http://www.casaroyal.cl/producto/pedestal-para-microfono-2/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282021_a-574x460.jpg"
-        },
-        {
-          "name": "Cable parlante armado 15m",
-          "price": 16990,
-          "link": "http://www.casaroyal.cl/producto/cable-parlante-armado-15m-2/",
-          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209420_a-574x460.jpg"
         },
         {
           "name": "Cable micrófono 2c",
@@ -152,12 +69,335 @@
           "price": 590,
           "link": "http://www.casaroyal.cl/producto/cable-microfono-1c/",
           "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223532_a-574x460.jpg"
+        },
+        {
+          "name": "Pedestal para micrófono",
+          "price": 4990,
+          "link": "http://www.casaroyal.cl/producto/pedestal-para-microfono-a/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282112_a-574x460.jpg"
+        }
+      ],
+      "nav": {
+        "prev": null,
+        "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=1",
+        "next": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=1"
+      }
+    }
+  },
+  {
+    "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2",
+    "file": "casaroyal/page-1.html",
+    "payload": {
+      "products": [
+        {
+          "name": "Cable micrófono 2c",
+          "price": 890,
+          "link": "http://www.casaroyal.cl/producto/cable-microfono-2c-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223536_a-574x460.jpg"
+        },
+        {
+          "name": "Pedestal para micrófono",
+          "price": 16990,
+          "link": "http://www.casaroyal.cl/producto/pedestal-para-microfono/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282020_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 15 mts",
+          "price": 14990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-15-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209378_a-574x460.jpg"
+        },
+        {
+          "name": "Rejilla antipop",
+          "price": 13990,
+          "link": "http://www.casaroyal.cl/producto/rejilla-antipop/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/210548_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 9 mts",
+          "price": 10990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-9-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209369_a-574x460.jpg"
+        },
+        {
+          "name": "Pedestal para micrófono",
+          "price": 7990,
+          "link": "http://www.casaroyal.cl/producto/pedestal-para-microfono-3/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282110_a-574x460.jpg"
+        },
+        {
+          "name": "Cable micrófono 1c, 6mm.",
+          "price": 590,
+          "link": "http://www.casaroyal.cl/producto/cable-microfono-1c/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223532_a-574x460.jpg"
+        },
+        {
+          "name": "Pedestal para micrófono",
+          "price": 4990,
+          "link": "http://www.casaroyal.cl/producto/pedestal-para-microfono-a/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282112_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 7990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209366_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 9990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209385_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 1,8 mts",
+          "price": 3990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209361_a-574x460.jpg"
         }
       ],
       "nav": {
         "prev": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=1",
         "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2",
         "next": null
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/categoria-producto/audio-profesional/accesorios-para-microfonos/?pag=2"
+      }
+    }
+  },
+  {
+    "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=1",
+    "file": "casaroyal/page-2.html",
+    "payload": {
+      "products": [
+        {
+          "name": "Cable plug 6.35A6.35, 10mts.",
+          "price": 15990,
+          "link": "http://www.casaroyal.cl/producto/cable-plug-6-35a6-35-10mts-pac137/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/07/209245-a-574x460.jpg"
+        },
+        {
+          "name": "Cable XLR M A XLR H negro 10mts. PAC123 VEL",
+          "price": 15990,
+          "link": "http://www.casaroyal.cl/producto/cable-xlr-m-xlr-h-negro-10m-pac123-vel/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/07/209243-a-574x460.jpg"
+        },
+        {
+          "name": "Pedestal IS-502B p/parlante",
+          "price": 19990,
+          "link": "http://www.casaroyal.cl/producto/pedestal-is-502b-pparlante/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/282002-a-574x460.jpg"
+        },
+        {
+          "name": "Cable parlante armado 15m",
+          "price": 16990,
+          "link": "http://www.casaroyal.cl/producto/cable-parlante-armado-15m-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209420_a-574x460.jpg"
+        },
+        {
+          "name": "Cable parlante 2.8 x 5.6",
+          "price": 290,
+          "link": "http://www.casaroyal.cl/producto/cable-parlante-2-8-x-5-6/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/225002_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 15 mts",
+          "price": 14990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-15-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209378_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 9 mts",
+          "price": 10990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-9-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209369_a-574x460.jpg"
+        },
+        {
+          "name": "Cable micrófono 1c, 6mm.",
+          "price": 590,
+          "link": "http://www.casaroyal.cl/producto/cable-microfono-1c/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223532_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 7990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209366_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 9990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209385_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 1,8 mts",
+          "price": 3990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209361_a-574x460.jpg"
+        },
+        {
+          "name": "Cable para instrumento 5 mts",
+          "price": 5990,
+          "link": "http://www.casaroyal.cl/producto/cable-para-instrumento-5-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209168_a-574x460.jpg"
+        }
+      ],
+      "nav": {
+        "prev": null,
+        "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=1",
+        "next": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=2"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=1"
+      }
+    }
+  },
+  {
+    "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=2",
+    "file": "casaroyal/page-3.html",
+    "payload": {
+      "products": [
+        {
+          "name": "Cable micrófono 1c, 6mm.",
+          "price": 590,
+          "link": "http://www.casaroyal.cl/producto/cable-microfono-1c/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/223532_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 7990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209366_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 7,5 mts",
+          "price": 9990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-75-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209385_a-574x460.jpg"
+        },
+        {
+          "name": "Cable armado micrófono 1,8 mts",
+          "price": 3990,
+          "link": "http://www.casaroyal.cl/producto/cable-armado-microfono-18-mts-2/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209361_a-574x460.jpg"
+        },
+        {
+          "name": "Cable para instrumento 5 mts",
+          "price": 5990,
+          "link": "http://www.casaroyal.cl/producto/cable-para-instrumento-5-mts/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/209168_a-574x460.jpg"
+        }
+      ],
+      "nav": {
+        "prev": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=1",
+        "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=2",
+        "next": null
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/categoria-producto/audio-profesional/accesorios-para-parlantes/?pag=2"
+      }
+    }
+  },
+  {
+    "url": "http://www.casaroyal.cl/categoria-producto/audio-profesional/bafles-y-parlantes/?pag=1",
+    "file": "casaroyal/page-4.html",
+    "payload": {
+      "products": [
+        {
+          "name": "Parlante Bazuca Big Bass BT Monster",
+          "price": 39990,
+          "link": "http://www.casaroyal.cl/producto/parlante-bazuca-big-bass-bt-monster/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2016/06/SKU_104172_011-574x460.jpg"
+        },
+        {
+          "name": "Radio FM Bluetooth USB/SD IRT",
+          "price": 49990,
+          "link": "http://www.casaroyal.cl/producto/radio-fm-bluetooth-usbsd/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2016/06/SKU_103781_011-574x460.jpg"
+        },
+        {
+          "name": "Parlante Karaoke Bluetooth luminoso Fun Great",
+          "price": 39990,
+          "link": "http://www.casaroyal.cl/producto/parlante-karaoke-bluetooth/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2016/06/SKU_104168_01-574x460.jpg"
+        },
+        {
+          "name": "Parlante Karaoke + Micrófono + Control Remoto Audiologic",
+          "price": 44990,
+          "link": "http://www.casaroyal.cl/producto/parlante-karaoke-microfono/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2016/06/SKU_103150_011-574x460.jpg"
+        },
+        {
+          "name": "Karaoke portátil Bluetooth 30W Fujitel",
+          "price": 47990,
+          "link": "http://www.casaroyal.cl/producto/karaoke-portatil-bluetooth/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2016/06/SKU_102345_01-574x460.jpg"
+        },
+        {
+          "name": "Parlante Karaoke portátil con micrófono",
+          "price": 69990,
+          "link": "http://www.casaroyal.cl/producto/parlante-karaoke-portatil-con-microfono/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/09/102469_02-574x460.jpg"
+        },
+        {
+          "name": "Sistema amplif. 100w c/miccrof. y batería",
+          "price": 129990,
+          "link": "http://www.casaroyal.cl/producto/sistema-amplif-100w-cmicrof-bateria/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/09/100331-574x460.jpg"
+        },
+        {
+          "name": "Bafle BT-3M1525SD 15 250w c/speakon/DC”",
+          "price": 99990,
+          "link": "http://www.casaroyal.cl/producto/bafle-bt-3m1525sd-15p-250w-cspeakondc/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/217093-574x460.jpg"
+        },
+        {
+          "name": "Amplif CD-217A portátil USB FM",
+          "price": 46990,
+          "link": "http://www.casaroyal.cl/producto/amplif-cd-217a-portatil-usb-fm/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/07/212211_A-574x460.jpg"
+        },
+        {
+          "name": "Parlante bazuka",
+          "price": 15990,
+          "link": "http://www.casaroyal.cl/producto/parlante-bazuka/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/09/101957-574x460.jpg"
+        },
+        {
+          "name": "Tornamesa classic",
+          "price": 79990,
+          "link": "http://www.casaroyal.cl/producto/tornamesa-classic-lp-ion-tapa/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/07/101840-574x460.jpg"
+        },
+        {
+          "name": "Parlante Woofer Karaoke portátil DBlue",
+          "price": 29990,
+          "link": "http://www.casaroyal.cl/producto/100476/",
+          "img": "http://www.casaroyal.cl/wp-content/uploads/2015/08/100476-574x460.jpg"
+        }
+      ],
+      "nav": {
+        "prev": null,
+        "current": "http://www.casaroyal.cl/categoria-producto/audio-profesional/bafles-y-parlantes/?pag=1",
+        "next": "http://www.casaroyal.cl/categoria-producto/audio-profesional/bafles-y-parlantes/?pag=2"
+      }
+    },
+    "res": {
+      "request": {
+        "path": "/categoria-producto/audio-profesional/bafles-y-parlantes/?pag=1"
       }
     }
   }
