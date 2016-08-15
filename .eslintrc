@@ -8,6 +8,7 @@
   "rules": {
     "semi": [2, "never"],
     "no-param-reassign": 0,
-    "no-throw-literal": 0
+    "no-throw-literal": 0,
+    "import/no-extraneous-dependencies": 0
   }
 }
