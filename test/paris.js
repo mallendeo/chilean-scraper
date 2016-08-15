@@ -10,7 +10,7 @@ test('Parse the pages and match the list of products', t =>
 
 test('[live] Get the first page and return a list of 10 products', async t => {
   try {
-    t.true((await getProducts(1)).products.length === 10)
+    t.true((await getProducts(1, 10)).products.length === 10)
   } catch (e) {
     t.fail(e)
   }

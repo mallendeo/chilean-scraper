@@ -3,7 +3,7 @@ import { cleanText, cleanPrice, getDOM } from '../helpers'
 export const HOST = 'http://www.paris.cl'
 const SEARCH_URL = `${HOST}/webapp/wcs/stores/servlet/AjaxCatalogSearchResultView`
 
-export const makeUrl = (page = 1, qty = 10, search = '') => `${SEARCH_URL}?storeId=10801`
+export const makeUrl = (page = 1, qty = 90, search = '') => `${SEARCH_URL}?storeId=10801`
   + `&pageSize=${qty}&beginIndex=${(page - 1) * qty}&sType=SimpleSearch&searchTerm=${search}`
 
 export const getNav = ($, res) => {
