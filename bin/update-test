@@ -1,72 +1,70 @@
 #!/usr/bin/env babel-node
 /* eslint no-console: 0 */
 
-import { getDOM } from '../src/lib/helpers'
-import scrapers from '../src/index'
-import times from 'lodash.times'
-import colors from 'colors/safe'
-import fs from 'fs'
+import chalk from 'chalk'
+import fs from 'fs-extra'
 
-const getCategories = scraper => {
-  if (!scraper) return Promise.reject('You must specify an scraper')
-  if (scraper.getCategories) return scraper.getCategories()
-  return Promise.resolve([])
-}
+import handler from '../src/lib/handler'
 
-const getProducts = (requests, id, scraper) => Promise.all(requests)
-  .then(data => {
-    const products = []
-    const pages = []
+const updateTest = (id, qty = 5, debug = false) => {
+  if (!id) {
+    console.log('Usage: npm run test:update {id} {pages}')
+    return
+  }
+  if (!handler.scrapers[id]) {
+    console.log(`Error: Invalid scraper ${chalk.white.bgRed.bold(id)}`)
+    return
+  }
 
-    data.forEach(({ $, res, body }) => {
-      const path = res.request.path
-      const url = scraper.HOST + path
-      products.push({ url, payload: scraper.parseProducts($, res) })
-      pages.push({ url, body, res: { request: { path } } })
+  const allProducts = []
+  const pages = []
+
+  const scraper = handler.loadScraper(id)
+  scraper.getAllProducts({ total: qty })
+
+  console.log(`🐵  Updating tests for ${chalk.green(id)}...`)
+
+  scraper.emitter.on('gotProducts', ({ data, opts }) => {
+    console.log(`${chalk.cyan(id)}: getting page `
+      + `${chalk.green(opts.i + 1)} of ${chalk.green(opts.total)}`)
+
+    const { products, nav, res, body } = data
+    const path = res.request.path
+    const url = handler.scrapers[id].HOST + path
+    const file = `page-${opts.i}.html`
+    allProducts.push({
+      url,
+      file: `${id}/${file}`,
+      payload: { products, nav },
+      res: { request: { path } },
     })
-
-    return { products, pages }
+    pages.push({ file, body })
   })
 
-const updateTest = async (id, qty = 5, debug = false) => {
-  if (!id) return console.log('Usage: npm run test:update {id} {pages}')
-  if (!scrapers[id]) return console.log(`Error: Invalid scraper "${colors.red(id)}"`)
+  scraper.emitter.on('done', () => {
+    if (!debug) {
+      pages.forEach(page => {
+        fs.outputFile(`./test/pages/${id}/${page.file}`, page.body, err => {
+          if (err) console.log(err)
+        })
+      })
+      fs.writeJson(`./test/data/${id}.json`, allProducts, err => {
+        if (err) console.log(err)
+      })
+    }
 
-  const scraper = scrapers[id]
-  return getCategories(scraper)
-    .then(categories => {
-      let requests = null
-      console.log(`🐵  Updating tests for ${colors.green(id)}...`)
-      if (categories.length) {
-        console.log('\tGetting products from the first category...')
-        requests = times(qty, i => getDOM(scraper.makeUrl(categories[0].href, i + 1)))
-      } else {
-        console.log('\tGetting products from search url...')
-        requests = times(qty, i => getDOM(scraper.makeUrl(i + 1)))
-      }
+    if (allProducts.length && pages.length) {
+      console.log(`👍  Test data updated for ${chalk.green(id)}: ${chalk.cyan(qty)} pages`)
+      return
+    }
+  })
 
-      return getProducts(requests, id, scraper, qty)
-    })
-    .then(({ products, pages }) => {
-      if (!debug) {
-        fs.writeFileSync(`./test/pages/${id}.json`, JSON.stringify(pages, null, 2))
-        fs.writeFileSync(`./test/data/${id}.json`, JSON.stringify(products, null, 2))
-      }
-
-      if (products.length && pages.length) {
-        console.log(`👍  Test data updated for ${colors.green(id)}: ${colors.cyan(qty)} pages`)
-        return
-      }
-    })
-    .catch(err => {
-      console.log(`🙈  Couldn't update test for "${id}"`)
-      console.log(err)
-    })
+  scraper.emitter.on('error', err => {
+    console.log(`🙈  Couldn't update test for "${chalk.cyan(id)}"`)
+    console.log(err)
+  })
 }
 
 // updateTest(websiteId, qty, debug)
 const websites = process.argv[2].split(',') || [process.argv[2]]
-const update = websites.map(website =>
-  updateTest(website, process.argv[3], process.argv[4]))
-
-Promise.all(update).then(() => console.log('All done! 👌🏼'))
+websites.map(website => updateTest(website, process.argv[3], process.argv[4]))

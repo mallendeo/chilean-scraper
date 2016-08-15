@@ -48,7 +48,7 @@ export const getCategories = () => getDOM(HOST)
       }))
   })
 
-export const parseProducts = $ => {
+export const parseProducts = ({ $, res, body }) => {
   const elems = $('.product-item-mosaic')
 
   const nav = getNav($)
@@ -60,9 +60,10 @@ export const parseProducts = $ => {
       .find('.name [data-original-title]')
       .attr('data-original-title')
     const name = $(elem).find('.name').text()
+    const stock = $(elem).find('.name').next().text()
 
     // discard product if there's no stock
-    if ($(elem).find('.name').text().includes('AGOTADO')) return null
+    if (stock.includes('AGOTADO') || stock.includes('PEDIDO')) return null
 
     const brand = $(elem).find('.brand').text()
     const price = $(elem).find('.cash-price').text()
@@ -76,8 +77,8 @@ export const parseProducts = $ => {
     }
   }).get().filter(p => p !== null)
 
-  return { products, nav }
+  return { products, nav, res, body }
 }
 
-export const getProducts = (url, page) => getDOM(makeUrl(url, page))
-  .then(({ $ }) => parseProducts($))
+export const getProducts = (url, page) =>
+  getDOM(makeUrl(url, page)).then(parseProducts)

@@ -20,7 +20,7 @@ export const getNav = $ => {
   }
 }
 
-export const parseProducts = $ => {
+export const parseProducts = ({ $, res, body }) => {
   const elems = $('.one-prod')
 
   const nav = getNav($)
@@ -46,8 +46,8 @@ export const parseProducts = $ => {
     }
   }).get()
 
-  return { products, nav }
+  return { products, nav, res, body }
 }
 
 export const getProducts = (page, qty, search) =>
-  getDOM(makeUrl(page, qty, search)).then(({ $ }) => parseProducts($))
+  getDOM(makeUrl(page, qty, search)).then(parseProducts)

@@ -19,7 +19,7 @@ export const getNav = $ => {
   }
 }
 
-export const parseProducts = $ => {
+export const parseProducts = ({ $, res, body }) => {
   const elems = $('.product-grid-holder .product-item')
 
   const nav = getNav($)
@@ -39,10 +39,9 @@ export const parseProducts = $ => {
     }
   }).get()
 
-  return { products, nav }
+  return { products, nav, res, body }
 }
 
 export const getProducts = (page, qty, search) =>
-  getDOM(makeUrl(page, qty, search), {
-    cookie: 'website_lang=es_CL;',
-  }).then(({ $ }) => parseProducts($))
+  getDOM(makeUrl(page, qty, search), { cookie: 'website_lang=es_CL;' })
+    .then(parseProducts)

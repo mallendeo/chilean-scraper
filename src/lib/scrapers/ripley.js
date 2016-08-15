@@ -27,7 +27,7 @@ export const getNav = ($, res) => {
   }
 }
 
-export const parseProducts = ($, res) => {
+export const parseProducts = ({ $, res, body }) => {
   const elems = $('.catalog-container .catalog-product')
 
   const nav = getNav($, res)
@@ -46,8 +46,8 @@ export const parseProducts = ($, res) => {
     }
   }).get()
 
-  return { products, nav }
+  return { products, nav, res, body }
 }
 
-export const getProducts = (page, qty, search) => getDOM(makeUrl(page, qty, search))
-  .then(({ $, res }) => parseProducts($, res))
+export const getProducts = (page, qty, search) =>
+  getDOM(makeUrl(page, qty, search)).then(parseProducts)

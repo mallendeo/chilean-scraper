@@ -25,7 +25,7 @@ export const getNav = ($, res) => {
   }
 }
 
-export const parseProducts = ($, res) => {
+export const parseProducts = ({ $, res, body }) => {
   const elems = $('.content > div > table:nth-of-type(3) > tr > td')
 
   const nav = getNav($, res)
@@ -47,8 +47,8 @@ export const parseProducts = ($, res) => {
     }
   }).get().filter(p => p !== null)
 
-  return { products, nav }
+  return { products, nav, res, body }
 }
 
 export const getProducts = (url, page) =>
-  getDOM(makeUrl(url, page)).then(({ $, res }) => parseProducts($, res))
+  getDOM(makeUrl(url, page)).then(parseProducts)
