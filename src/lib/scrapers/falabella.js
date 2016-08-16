@@ -25,8 +25,7 @@ export const parseProducts = ({ $, res, body }) => {
 
   const nav = getNav($)
   const products = elems.map((i, elem) => {
-    const isEmpty = $(elem).html() === '&#xA0;'
-    if (isEmpty) return null
+    if ($(elem).html().length < 10) return null
 
     const link = $(elem).find('.detalle > a').attr('href')
     const img = $(elem).find('img[data-original]').attr('data-original')
