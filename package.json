@@ -2,7 +2,7 @@
   "name": "buscatodo-scraper",
   "version": "1.0.0",
   "description": "BuscaTodo's scraping tool",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "ava",
     "test:watch": "npm run test -- -w",
