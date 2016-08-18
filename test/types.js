@@ -25,7 +25,8 @@ Object.keys(scrapers).forEach(key => {
     try {
       const categories = scraper.getCategories && await scraper.getCategories()
       if (categories) {
-        return t.true(checkPropsType(await scraper.getProducts(categories[0].href, 1)))
+        t.true(checkPropsType(await scraper.getProducts(categories[0].href, 1)))
+        return
       }
 
       t.true(checkPropsType(await scraper.getProducts(1)))

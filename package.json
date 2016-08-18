@@ -1,15 +1,14 @@
 {
-  "name": "buscatodo",
+  "name": "buscatodo-scraper",
   "version": "1.0.0",
   "description": "BuscaTodo's scraping tool",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node build/index.js",
     "test": "ava",
     "test:watch": "npm run test -- -w",
-    "lint": "eslint ./ ; exit 0",
+    "lint": "eslint --ignore-path .gitignore ./ ; exit 0",
     "update:test": "./bin/update-test",
-    "build": "rimraf build && babel src -d build"
+    "build": "rimraf dist && babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -38,13 +37,13 @@
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.11.0",
+    "chalk": "^1.1.3",
     "eslint": "^3.3.0",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.0.0",
-    "fs-extra": "^0.30.0",
-    "chalk": "^1.1.3"
+    "eslint-plugin-react": "^6.1.2",
+    "fs-extra": "^0.30.0"
   },
   "dependencies": {
     "axios": "^0.13.1",

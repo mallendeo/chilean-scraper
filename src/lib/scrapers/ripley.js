@@ -1,5 +1,5 @@
-import { cleanText, cleanPrice, getDOM } from '../helpers'
 import { parse } from 'url'
+import { cleanText, cleanPrice, getDOM } from '../helpers'
 
 export const HOST = 'http://simple.ripley.cl'
 const SEARCH_URL = `${HOST}/search/`
