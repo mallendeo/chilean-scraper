@@ -15,8 +15,5 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
-# Build
-dist
-
 # macOS
 .DS_Store
