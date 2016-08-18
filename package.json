@@ -2,7 +2,7 @@
   "name": "buscatodo",
   "version": "1.0.0",
   "description": "BuscaTodo's scraping tool",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node build/index.js",
     "test": "ava",
