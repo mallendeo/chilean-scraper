@@ -1,12 +1,5 @@
 import test from 'ava'
-import { matchProducts } from './helpers'
-
-import { parseProducts, getProducts } from '../src/lib/scrapers/ripley'
-
-import data from './data/ripley.json'
-
-test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(data, parseProducts)))
+import { getProducts } from '../../src/lib/scrapers/ripley'
 
 test('[live] Get the first page and return a list of 24 products', async t => {
   try {

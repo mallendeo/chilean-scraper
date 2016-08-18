@@ -1,16 +1,9 @@
 import test from 'ava'
-import { matchProducts } from './helpers'
 
 import {
-  parseProducts,
   getProducts,
   getCategories,
-} from '../src/lib/scrapers/spdigital'
-
-import data from './data/spdigital.json'
-
-test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(data, parseProducts)))
+} from '../../src/lib/scrapers/spdigital'
 
 test('[live] Get all the categories from the homepage', async t => {
   try {

@@ -1,16 +1,9 @@
 import test from 'ava'
-import { matchProducts } from './helpers'
 
 import {
-  parseProducts,
   getProducts,
   getCategories,
-} from '../src/lib/scrapers/pcfactory'
-
-import data from './data/pcfactory.json'
-
-test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(data, parseProducts)))
+} from '../../src/lib/scrapers/pcfactory'
 
 test('[live] Return array of products from the first page and check nav', async t => {
   try {

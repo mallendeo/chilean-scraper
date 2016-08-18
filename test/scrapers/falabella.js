@@ -1,12 +1,5 @@
 import test from 'ava'
-import { matchProducts } from './helpers'
-
-import { parseProducts, getProducts } from '../src/lib/scrapers/falabella'
-
-import data from './data/falabella.json'
-
-test('Parse the pages and match the list of products', t =>
-  t.true(matchProducts(data, parseProducts)))
+import { getProducts } from '../../src/lib/scrapers/falabella'
 
 test('[live] Get the first page and return a list of 16 products', async t => {
   try {

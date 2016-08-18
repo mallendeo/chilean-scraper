@@ -3,9 +3,9 @@
 import chalk from 'chalk'
 import handler from './lib/handler'
 
-const scraper = handler.loadScraper('casaroyal')
+const scraper = handler.loadScraper('paris')
 
-scraper.getAllProducts({ total: 5 })
+scraper.getAllProducts()
 
 scraper.emitter.on('gettingProducts', data => {
   console.log(chalk.green('\n\t============================='))
