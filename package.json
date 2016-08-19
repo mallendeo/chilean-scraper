@@ -6,7 +6,7 @@
   "scripts": {
     "test": "ava",
     "test:watch": "npm run test -- -w",
-    "lint": "eslint --ignore-path .gitignore ./ ; exit 0",
+    "lint": "eslint ./ ; exit 0",
     "update:test": "./bin/update-test",
     "build": "rimraf dist && babel src -d dist"
   },

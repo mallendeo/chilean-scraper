@@ -18,4 +18,3 @@ Object.keys(scrapers).forEach(key => {
     t.true(matchProducts(data, scraper.parseProducts))
   })
 })
-
