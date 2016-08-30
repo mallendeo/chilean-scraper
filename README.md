@@ -14,6 +14,7 @@ Supported websites:
 
   - [CasaRoyal](http://casaroyal.cl)
   - [Falabella](http://falabella.com)
+  - [MediaPlayer](http://mediaplayer.cl)
   - [Olimex](http://olimex.cl)
   - [Paris](http://paris.cl)
   - [PC Factory](https://pcfactory.cl)
