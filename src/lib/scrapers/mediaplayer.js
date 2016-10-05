@@ -14,7 +14,7 @@ export const getNav = $ => {
   return {
     prev: prev || null,
     current: cleanText(current.text()),
-    next: next || null,
+    next: next || null
   }
 }
 
@@ -34,7 +34,7 @@ export const parseProducts = ({ $, res, body }) => {
       name: cleanText(name),
       price: cleanPrice(price),
       link,
-      img,
+      img
     }
   }).get()
 

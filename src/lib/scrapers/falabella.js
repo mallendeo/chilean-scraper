@@ -4,8 +4,8 @@ export const HOST = 'http://www.falabella.com'
 const SEARCH_URL = `${HOST}/falabella-cl/search/`
 
 export const makeUrl = (page = 1, qty = 16, search = '') =>
-  `${SEARCH_URL}?&No=${(page - 1) * qty}`
-  + `&Ntt=${search}&Nrpp=${qty}&userSelectedFormat=list`
+  `${SEARCH_URL}?&No=${(page - 1) * qty}` +
+  `&Ntt=${search}&Nrpp=${qty}&userSelectedFormat=list`
 
 export const getNav = $ => {
   const nav = $('#paginador').first()
@@ -16,7 +16,7 @@ export const getNav = $ => {
   return {
     prev: prev || null,
     current: cleanText(current.text()),
-    next: next || null,
+    next: next || null
   }
 }
 
@@ -38,7 +38,7 @@ export const parseProducts = ({ $, res, body }) => {
       price: cleanPrice(price),
       brand: cleanText(brand),
       link: HOST + link,
-      img,
+      img
     }
   }).get()
 

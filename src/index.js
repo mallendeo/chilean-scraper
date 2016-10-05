@@ -81,11 +81,17 @@ const loadScraper = scraperId => {
 
   return {
     getAllProducts,
-    emitter,
+    emitter
   }
 }
 
 export default {
   scrapers,
-  loadScraper,
+  loadScraper
 }
+
+const scraper = loadScraper('ripley')
+scraper.getAllProducts()
+scraper.emitter.on('gotProducts', ({data}) => {
+  console.log(data.products)
+})

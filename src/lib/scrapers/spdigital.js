@@ -13,14 +13,14 @@ export const getNav = $ => {
   return {
     prev: prev ? HOST + prev : null,
     current: HOST + current.children('a').attr('href'),
-    next: next ? HOST + next : null,
+    next: next ? HOST + next : null
   }
 }
 
 export const parseCategories = $ => $('.category-children-item-menu a')
   .map((i, elem) => ({
     name: cleanText($(elem).text()),
-    href: HOST + $(elem).attr('href'),
+    href: HOST + $(elem).attr('href')
   })).get()
 
 export const getCategories = () => getDOM(HOST)
@@ -34,7 +34,7 @@ export const getCategories = () => getDOM(HOST)
         promises.push(getDOM(category.href).then(({ $ }) =>
           ({
             name: category.name,
-            href: getNav($).current.replace('/page:1', ''),
+            href: getNav($).current.replace('/page:1', '')
           })
         ))
       }
@@ -73,7 +73,7 @@ export const parseProducts = ({ $, res, body }) => {
       price: cleanPrice(price),
       brand: cleanText(brand),
       link: HOST + link,
-      img: HOST + img,
+      img: HOST + img
     }
   }).get().filter(p => p !== null)
 

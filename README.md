@@ -1,11 +1,11 @@
-# buscatodo-scraper
+# chilean-scraper
 
-BuscaTodo's scraping tool.
+Products scraping tool for chilean websites
 
 ## Install
 
 ```bash
-$ npm install mallendeo/buscatodo-scraper#master
+$ npm install mallendeo/chilean-scraper#master
 ```
 
 ## Usage
@@ -26,8 +26,8 @@ Supported websites:
 
 ## Development
 ```bash
-$ git clone https://github.com/mallendeo/buscatodo-scraper
-$ cd buscatodo-scraper
+$ git clone https://github.com/mallendeo/chilean-scraper
+$ cd chilean-scraper
 $ npm install
 ```
 ### Test
@@ -45,6 +45,3 @@ $ npm run update:test pcfactory 5
 $ npm run update:test pcfactory,ripley,pcfactory 5
 $ npm run update:test paris 10 true
 ```
-
-## License
-Copyright 2016 BuscaTodo

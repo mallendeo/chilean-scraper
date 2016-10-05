@@ -7,7 +7,7 @@ export const makeUrl = (url, page = 1) => `${url}&pagina=${page}`
 export const parseCategories = $ => $('.main_link[href*="?papa"]')
   .map((i, elem) => ({
     name: cleanText($(elem).text()),
-    href: HOST + $(elem).attr('href'),
+    href: HOST + $(elem).attr('href')
   })).get()
 
 export const getCategories = () => getDOM(`${HOST}/mapa`)
@@ -21,7 +21,7 @@ export const getNav = ($, res) => {
   return {
     prev: prev ? HOST + prev : null,
     current: HOST + res.request.path,
-    next: next ? HOST + next : null,
+    next: next ? HOST + next : null
   }
 }
 
@@ -43,7 +43,7 @@ export const parseProducts = ({ $, res, body }) => {
       price: cleanPrice(price),
       brand: cleanText(brand),
       link: HOST + link,
-      img: HOST + img,
+      img: HOST + img
     }
   }).get().filter(p => p !== null)
 

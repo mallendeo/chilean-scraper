@@ -4,8 +4,9 @@ import { cleanText, cleanPrice, getDOM } from '../helpers'
 export const HOST = 'http://simple.ripley.cl'
 const SEARCH_URL = `${HOST}/search/`
 
-export const makeUrl = (page = 1, qty = 24, search = '*') => `${SEARCH_URL}${search}`
-  + `?&page=${page}&pageSize=${qty}&orderBy=3`
+export const makeUrl = (page = 1, qty = 24, search = '*') =>
+  `${SEARCH_URL}${search}` +
+  `?&page=${page}&pageSize=${qty}&orderBy=3`
 
 export const getNav = ($, res) => {
   const nav = $('.pagination')
@@ -23,7 +24,7 @@ export const getNav = ($, res) => {
   return {
     prev: prev.length > 2 ? `${HOST}${uri.pathname}?${prev.replace('#', '')}` : null,
     current: HOST + uri.path,
-    next: next.length > 2 ? `${HOST}${uri.pathname}?${next.replace('#', '')}` : null,
+    next: next.length > 2 ? `${HOST}${uri.pathname}?${next.replace('#', '')}` : null
   }
 }
 
@@ -42,7 +43,7 @@ export const parseProducts = ({ $, res, body }) => {
       name: cleanText(name),
       price: cleanPrice(price),
       link: HOST + link,
-      img: `http:${img}`,
+      img: `http:${img}`
     }
   }).get()
 

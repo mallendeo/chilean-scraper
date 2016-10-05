@@ -15,7 +15,7 @@ export const getNav = $ => {
   return {
     prev: prev ? HOST + prev : null,
     current: HOST + current.children('a').attr('href'),
-    next: next ? HOST + next : null,
+    next: next ? HOST + next : null
   }
 }
 
@@ -35,7 +35,7 @@ export const parseProducts = ({ $, res, body }) => {
       price: cleanPrice(price),
       brand: cleanText(brand),
       link: HOST + link,
-      img: HOST + img,
+      img: HOST + img
     }
   }).get()
 

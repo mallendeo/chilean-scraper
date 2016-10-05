@@ -2,10 +2,10 @@ import test from 'ava'
 
 import {
   getProducts,
-  getCategories,
+  getCategories
 } from '../../src/lib/scrapers/pcfactory'
 
-test('[live] Return array of products from the first page and check nav', async t => {
+test('[live] Return array of products from the first page and check nav', async (t) => {
   try {
     const categories = await getCategories()
     const { products, nav } = await getProducts(categories[0].href, 1)

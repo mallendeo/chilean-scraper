@@ -17,5 +17,5 @@ export default {
   pcfactory,
   ripley,
   sodimac,
-  spdigital,
+  spdigital
 }

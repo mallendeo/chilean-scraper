@@ -4,8 +4,8 @@ export const HOST = 'http://www.sodimac.cl'
 const SEARCH_URL = `${HOST}/sodimac-cl/search/`
 
 export const makeUrl = (page = 1, qty = 16, search = '') =>
-  `${SEARCH_URL}?&No=${(page - 1) * qty}`
-  + `&Ntt=${search}&Nrpp=${qty}`
+  `${SEARCH_URL}?&No=${(page - 1) * qty}` +
+  `&Ntt=${search}&Nrpp=${qty}`
 
 export const getNav = $ => {
   const nav = $('.pagination').first()
@@ -16,7 +16,7 @@ export const getNav = $ => {
   return {
     prev: prev || null,
     current: cleanText(current.text()),
-    next: next || null,
+    next: next || null
   }
 }
 
@@ -42,7 +42,7 @@ export const parseProducts = ({ $, res, body }) => {
       price: cleanPrice(price),
       brand: cleanText(brand),
       link: HOST + link,
-      img,
+      img
     }
   }).get()
 
