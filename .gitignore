@@ -17,3 +17,5 @@ jspm_packages
 
 # macOS
 .DS_Store
+
+dist
